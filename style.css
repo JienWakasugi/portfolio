@@ -164,9 +164,9 @@ main[role="main-wrapper"] div.text-contents p{text-align: center;; padding: 0 6%
 }
 
 .overview-show{
-    padding-top: 1rem;
-    padding-left: 3rem;
-    padding-right: 3rem;
+    align-items: center;
+    justify-content: center;
+    margin: 1em;
 }
 .overview-title{
     margin-bottom:.5rem;
