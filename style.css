@@ -113,6 +113,15 @@ header.shadow{
     font-weight: 400;
     margin: 0.7rem 0 1rem;
 }
+
+
+main[role="main-wrapper"] div.text-contents {margin-bottom: 30pt}
+
+main[role="main-wrapper"] div.text-contents h3{font-size:26px; line-height:30px; font-weight:700; margin:20pt 0 30pt 0; text-align: center;}
+
+main[role="main-wrapper"] div.text-contents p{text-align: center;; padding: 0 6%}
+
+
 /*作品詳細*/
 .work-details{
     position: relative;
