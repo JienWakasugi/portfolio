@@ -163,10 +163,14 @@ main[role="main-wrapper"] div.text-contents p{text-align: center;; padding: 0 6%
     text-align: center;
 }
 
+/*概要*/
 .overview-show{
     align-items: center;
     justify-content: center;
-    margin: 1em;
+    max-width: 80%;
+    /*margin: 1em;*/
+    margin-left: auto;
+    margin-right: auto;
 }
 .overview-title{
     margin-bottom:.5rem;
@@ -176,7 +180,7 @@ main[role="main-wrapper"] div.text-contents p{text-align: center;; padding: 0 6%
     margin: 2em 0;
     font-weight: bold;
     color: #6091d3;/*文字色*/
-    background: #FFF;
+    /*background: #FFF;*/
     border: solid 3px #6091d3;/*線*/
     border-radius: 10px;/*角の丸み*/
 }
@@ -383,6 +387,7 @@ div ul li{
     max-width: 80%; /* ここに動画の横幅を指定 */
     margin-left: auto;
     margin-right: auto;
+    padding-bottom: 56.25%;
   }
   
   /* 動画を囲うdiv */
