@@ -142,6 +142,7 @@ main[role="main-wrapper"] div.text-contents p{text-align: center;; padding: 0 6%
     margin-top: 1rem;*/
     /*margin-bottom: 10rem;*/
 }
+/*ヘッダーの作品画像*/
 .work-details img{
     /*object-fit: cover;*/
     display: block;
@@ -149,18 +150,28 @@ main[role="main-wrapper"] div.text-contents p{text-align: center;; padding: 0 6%
     width: 100%;
     height: 100%;
 }
+
 .details{
     padding-top: 1rem;
     position: relative;
     text-align: center;
+    /*align-items: center;*/
+    /*justify-content: center;*/
+    max-width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: start;
 }
+
+/*役割・期間・ツールに関するところ*/
 .details .tools{
+    /*padding: 0.5em 1em;
+    margin: 2em 0;*/
+    font-feature-settings: "palt";
     margin: 0;
     padding: 0;
-    /*margin: 0;
-    padding: 0;*/
     position: relative;
-    text-align: center;
+    text-align: start;
 }
 
 /*概要*/
@@ -176,6 +187,7 @@ main[role="main-wrapper"] div.text-contents p{text-align: center;; padding: 0 6%
     margin-bottom:.5rem;
 }
 .overview-info{
+    font-feature-settings: "palt";
     padding: 0.5em 1em;
     margin: 2em 0;
     font-weight: bold;
@@ -382,12 +394,45 @@ div ul li{
     color: #fff;
 }
 
+/*作品の説明資料*/
+.contents {
+    max-width: 80%; /* ここに動画の横幅を指定 */
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 1rem;
+}
+.contents h2{
+    padding-bottom: .2rem;
+}
+/*.contents p{
+    margin-bottom: .5rem;
+}*/
+
+.content-details img{
+    position: relative;
+    text-align: center;
+    max-width:100%; /* 横幅は100%で固定 */
+    /*padding-top: 1rem;*/
+    padding-bottom: 1rem;
+     /* 高さは0にしておく(padding-topで高さを指定するため) */
+    /*padding-top: 56.25%;*/ /* 高さを指定(16:9) */
+    /*padding-top: 1rem;
+    position: relative;
+    text-align: center;*/
+    /*align-items: center;*/
+    /*justify-content: center;*/
+    /*max-width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: start;*/
+}
+
 /*YouTube*/
 .video-wrap {
     max-width: 80%; /* ここに動画の横幅を指定 */
     margin-left: auto;
     margin-right: auto;
-    padding-bottom: 56.25%;
+    padding-bottom: 4rem /*56.25%  margin-bottom: 1rem;*/
   }
   
   /* 動画を囲うdiv */
