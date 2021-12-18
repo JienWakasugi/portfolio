@@ -401,10 +401,10 @@ div ul li{
     margin-right: auto;
     /*margin-bottom: 1rem;*/
 }
-/*.contents h2{
-    margin-bottom: .1rem;
-}*/
-
+.contents h3{
+    border-bottom: solid .1rem rgb(82, 184, 179);
+    margin-bottom: .2rem;
+}
 /*.contents p{
     margin-bottom: .5rem;
 }*/
@@ -434,7 +434,7 @@ div ul li{
     max-width: 80%; /* ここに動画の横幅を指定 */
     margin-left: auto;
     margin-right: auto;
-    padding-bottom: 4rem /*56.25%  margin-bottom: 1rem;*/
+    padding-bottom: 2.2rem /*56.25%  margin-bottom: 1rem;*/
   }
   
   /* 動画を囲うdiv */
