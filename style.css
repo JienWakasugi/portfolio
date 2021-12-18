@@ -399,11 +399,12 @@ div ul li{
     max-width: 80%; /* ここに動画の横幅を指定 */
     margin-left: auto;
     margin-right: auto;
-    padding-bottom: 1rem;
+    /*margin-bottom: 1rem;*/
 }
-.contents h2{
-    padding-bottom: .2rem;
-}
+/*.contents h2{
+    margin-bottom: .1rem;
+}*/
+
 /*.contents p{
     margin-bottom: .5rem;
 }*/
@@ -413,7 +414,8 @@ div ul li{
     text-align: center;
     max-width:100%; /* 横幅は100%で固定 */
     /*padding-top: 1rem;*/
-    padding-bottom: 1rem;
+    margin-top: .2rem;
+    margin-bottom: .8rem;
      /* 高さは0にしておく(padding-topで高さを指定するため) */
     /*padding-top: 56.25%;*/ /* 高さを指定(16:9) */
     /*padding-top: 1rem;
