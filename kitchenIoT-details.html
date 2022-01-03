@@ -7,6 +7,7 @@
     <title>IoT Kitchen Scale</title>
     <!--Link To CSS-->
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="modal.css">
     <!--Box Icons-->
     <link rel="stylesheet"
      href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
@@ -61,24 +62,24 @@
    <div class="details">
     
     <div class="tools">
-        <p style="font-size:1vw;"><strong>Role</strong><br/>
+        <p ><strong>Role</strong><br/>
             ハードウェア　キッチンスケールと調味料瓶の制作,<br/>ソフトウェア　Webアプリの開発</p>
-            <p style="font-size:1vw;"><strong>Year</strong><br/>2017 to 2020</p>
-            <p style="font-size:1vw;"><strong>Award</strong><br/><a href="https://sites.google.com/view/imedia-ws/imedia2019">第10回 情報合同メディア研究会 優秀賞</a> </p>
-            <p style="font-size:1vw;"><strong>Techniques</strong><br/> <span style="font-size:1vw;">HTML, CSS, JavaScript,</span><span style="font-size:1vw;">Illustrator, Photoshop, Adobe Premium,</span> <span style="font-size:1vw;">Arduino, Fusion360</span></p>
+            <p ><strong>Year</strong><br/>2017 to 2020</p>
+            <p ><strong>Award</strong><br/><a href="https://sites.google.com/view/imedia-ws/imedia2019">第10回 情報合同メディア研究会 優秀賞</a> </p>
+            <p ><strong>Techniques</strong><br/>HTML, CSS, JavaScript, Illustrator, Photoshop, Adobe Premium, Arduino, Fusion360</p>
         </div>    
    </div>
 
     <div class="overview-show">
         <div class="overview-info">
-            <div class="overview-title" style="font-size:1.5vw;">OVERVIEW</div>
+            <div class="overview-title" >OVERVIEW</div>
             <div>
-                  <p class="overview-abstract" style="font-size:1.2vw;" ><b>大学院の修士研究</b><br/>オンラインレシピで、多種多様な料理を作ることができるようになりましたが料理初心者はレシピ通りにできないという課題があると考えました。<br/>
+                  <p class="overview-abstract"  ><b>大学院の修士研究</b><br/>オンラインレシピで、多種多様な料理を作ることができるようになりましたが料理初心者はレシピ通りにできないという課題があると考えました。<br/>
                 その課題に対してオンラインレシピとIoT化した調理器具をつないでそんな料理初心者を支援するプロトタイプを製作しました。</p>
                 <ul>
-                  <li style="font-size:1vw;">調理の課題である計量や調理手順、時間管理を解決するアイデアを実装</li>
-                  <li style="font-size:1vw;">実際に動くハードウェアとソフトウェアのデザインUXデザイン</li>
-                  <li style="font-size:1vw;"> 想定ユーザーの課題抽出とフローを検討</li>
+                  <li >調理の課題である計量や調理手順、時間管理を解決するアイデアを実装</li>
+                  <li >実際に動くハードウェアとソフトウェアのデザインUXデザイン</li>
+                  <li> 想定ユーザーの課題抽出とフローを検討</li>
                </ul>
             </div>
           </div>
@@ -90,79 +91,126 @@
         </div>
     </div>
     
+  
+
     <div class="explain">
-        <h3 style="font-size:2vw;">IoTキッチンスケールCaL(カル)について</h3>
-        <p style="font-size:1vw;"> <b>入れ忘れ防止:</b> 加えた材料をスケールがセンシングして、レシピ上に情報を反映します。</p>
-        <p style="font-size:1vw;"><b>自動的に換算:</b> 大さじ・小さじなどを自動的にグラムに換算します。</p>
+        <h3>IoTキッチンスケールCaL(カル)について</h3>
+        <h4>入れ忘れ防止:</h4>
+        <p >加えた材料をスケールがセンシングして、レシピ上に情報を反映します。</p>
+        <h4>自動的に換算:</h4>
+        <p > 大さじ・小さじなどを自動的にグラムに換算します。</p>
          <!--<img src="img/cookingware.jpg" alt="">-->
+
+        <!--
+              <div class="modal-wrapper">
+                <img src="" alt="" class="modal-image">
+             </div>
+
+            <div class="wrapper">
+                <img src="img/about.png" alt="" class="image" data-src="img/about.png">
+            </div>
+        -->
          
         <div class="explain-photos">
-            <img src="img/cookingware.jpg" alt="">
+            <img src="img/cookingware.jpg" alt="" class="project-image">
+            <!--class="image" data-src="img/cookingware.jpg"-->
+            <!--<div class="grid-overlay">
+                <button class="viewbutton">View More</button>
+            </div>-->
         </div>
         <div class="use">
-            <h4 style="font-size:2vw;">使い方/仕組み</h4>
-            <p style="font-size:1vw;"><b>使い方:</b>キッチンスケールで測った食材の情報がレシピにリアルタイムに表示されます。<br/>例えば調味料の換算や食材の入れ忘れ防止等です。</p>
-            <p style="font-size:1vw;"><b>仕組み:</b> <a href ="https://www.switch-science.com/catalog/2500/">通信センサESPr® Developer</a>でレシピと通信します。</p>
+            <!--<h4>使い方/仕組み</h4>-->
+            <h4>使い方:</h4>
+            <p >キッチンスケールで測った食材の情報がレシピにリアルタイムに表示されます。<br/>例えば調味料の換算や食材の入れ忘れ防止等です。</p>
+            <h4>仕組み:</h4>
+            <p ><a href ="https://www.switch-science.com/catalog/2500/">通信センサESPr® Developer</a>でレシピと通信します。</p>
         </div>
+
+        
         <div class="explain-photos">
-            <img src="img/explain-cal.png" alt="">
+            <img src="img/explain-cal.png" alt="" class="project-image">
+            <!--<div class="grid-overlay">
+                <button class="viewbutton">View More</button>
+            </div>-->
         </div>
         
 
-        <h3 style="font-size:2vw;">IoTスパイスボックスLight(ライト)について</h3>
-        <p style="font-size:1vw;"> <b>入れ忘れ防止:</b> 加えた材料をスケールがセンシングして、レシピ上に情報を反映します。</p>
-        <p style="font-size:1vw;"><b>自動的に換算:</b> 大さじ・小さじなどを自動的にグラムに換算します。</p>
+        <h3 >IoTスパイスボックスLight(ライト)について</h3>
+        <h4>入れ忘れ防止:</h4>
+        <p> 加えた材料をスケールがセンシングして、レシピ上に情報を反映します。</p>
+        <h4>自動的に換算:</h4>
+        <p>大さじ・小さじなどを自動的にグラムに換算します。</p>
         <div class="explain-photos">
-            <img src="img/cookingware-ight.jpg" alt="">
-        </div>
-        <div class="use">
-            <h4 style="font-size:2vw;">使い方/仕組み</h4>
-            <p style="font-size:1vw;"><b>使い方:</b>レシピの手順に合わせて必要な調味料ボックスが光り、何を入れればよいか教えてくれます。</p>
-            <p style="font-size:1vw;"><b>仕組み:</b> <a href ="https://www.switch-science.com/catalog/2500/">通信センサESPr® Developer</a>でレシピと通信します。</p>
-        </div>
-        
-        <div class="explain-photos">
-            <img src="img/explain-light.png" alt="">
-        </div>
-
-        <h3 style="font-size:2vw;">レシピTre(トレ)について</h3>
-        <p style="font-size:1vw;"> <b>入れ忘れ防止:</b> 加えた材料をスケールがセンシングして、レシピ上に情報を反映します。</p>
-        <p style="font-size:1vw;"><b>自動的に換算:</b> 大さじ・小さじなどを自動的にグラムに換算します。</p>
-        <div class="explain-photos">
-            <img src="img/recipe-tre.jpg" alt="">
+            <img src="img/cookingware-light.jpg" alt="" class="project-image" >
+            
         </div>
 
         <div class="use">
-            <h4 style="font-size:2vw;">使い方/仕組み</h4>
-            <p style="font-size:1vw;"><b>使い方:</b>キッチンスケールで計量した情報や必要な調味料を教えてくれる、タイマーの準備をレシピがしてくれます。</p>
-            <p style="font-size:1vw;"><b>仕組み:</b> HTML,CSS,Javascriptでレシピをつくり、調理器具とはAjaxで通信します。</p>
-        </div>
-        <div class="explain-photos">
-            <img src="img/explain-tre.png" alt="">
+            <!--<h4 >使い方/仕組み</h4>-->
+            <h4>使い方:</h4>
+            <p>レシピの手順に合わせて必要な調味料ボックスが光り、何を入れればよいか教えてくれます。</p>
+            <h4>仕組み:</h4> 
+            <p ><a href ="https://www.switch-science.com/catalog/2500/">通信センサESPr® Developer</a>でレシピと通信します。</p>
         </div>
         
-        <h3 style="font-size:2vw;">コンセプト作成</h3>
-        <p style="font-size:1vw;"> <b>解決する課題:</b> 料理初心者の課題である“正確な計量”と“レシピの読み間違え”、“時間管理”を解決します。</p>
+        <div class="explain-photos">
+            <img src="img/explain-light.png" alt="" class="project-image" >
+        </div>
+
+        <h3 >レシピTre(トレ)について</h3>
+        <h4>入れ忘れ防止:</h4>
+        <p>  加えた材料をスケールがセンシングして、レシピ上に情報を反映します。</p>
+        <h4>自動的に換算:</h4> 
+        <p >大さじ・小さじなどを自動的にグラムに換算します。</p>
+        <div class="explain-photos">
+            <img src="img/recipe-tre.jpg" alt="" class="project-image" >
+        </div>
+
+        <div class="use">
+            <!--<h4 >使い方/仕組み</h4>-->
+            <h4>使い方:</h4>
+            <p>キッチンスケールで計量した情報や必要な調味料を教えてくれる、タイマーの準備をレシピがしてくれます。</p>
+            <h4>仕組み:</h4> 
+            <p >HTML,CSS,Javascriptでレシピをつくり、調理器具とはAjaxで通信します。</p>
+        </div>
+        <div class="explain-photos">
+            <img src="img/explain-tre.png" alt="" class="project-image">
+        </div>
+        
+        <h3 >コンセプト作成</h3>
+        <h4>解決する課題:</h4>
+        <p >  料理初心者の課題である“正確な計量”と“レシピの読み間違え”、“時間管理”を解決します。</p>
         <!--<p style="font-size:1vw;"><b>自動的に換算:</b> 大さじ・小さじなどを自動的にグラムに換算します。</p>-->
         <div class="explain-photos">
-            <img src="img/explain-concepts.jpg" alt="">
+            <img src="img/explain-concepts.jpg" alt="" class="project-image" >
         </div>
 
-        <h3 style="font-size:2vw;">製作プロセス</h3>
-        <p style="font-size:1vw;"> <b>実装までの流れ:</b> システムの流れを描くところからハード・ソフトの設計を行いました。</p>
+        <h3 >製作プロセス</h3>
+        <h4>実装までの流れ:</h4>
+        <p >  システムの流れを描くところからハード・ソフトの設計を行いました。</p>
         <!--<p style="font-size:1vw;"><b>自動的に換算:</b> 大さじ・小さじなどを自動的にグラムに換算します。</p>-->
         <div class="explain-photos">
-            <img src="img/process-hardware.jpg" alt="">
-            <img src="img/process-software.jpg" alt="">
+            <img src="img/process-hardware.jpg" alt="" class="project-image" >
+            <img src="img/process-software.jpg" alt="" class="project-image" >
+            <!--data-src="img/process-software.jpg"-->
         </div>
         
     </div>
 
 </main>
+<div class="modal">
+    <img src="" alt="" class="full-img">
+    <p class="caption"></p>
+</div>
+<!--<div class="overlay">
+    <div class="overlay-inner">
+        <button class="close">Close X</button>
+    </div>
+</div>-->
 
 
 <div class="footer">
-    <h2 style="font-size:1.5vw;">Jien</h2>
+    <h2 >Jien</h2>
     <div class="footer-social">
         <a href="#"><i class='bx bxl-twitter'></i></a>
         <a href="#"><i class='bx bxl-facebook-square' ></i></a>
