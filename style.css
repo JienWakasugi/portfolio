@@ -74,12 +74,39 @@ header.shadow{
 .navbar a:hover{
     color: var(--hover);
 }
+/*ハンバーガーメニュー*/
 #menu-icon{
-    font-size: 24px;
+    /* display: block; */
+  /* position: relative; */
+    font-size: 24px; 
     cursor: pointer;
     z-index: 10001;
     display: none;
 }
+/*#menu-icon .text{
+    display: none;
+}*/
+
+/*#menu-icon:before, #menu-icon:after {
+    content: '';
+    width: 100%;
+    height: 8px;
+    background-color: rgb(179, 92, 92);
+    display: block;
+    position: absolute;
+    border-radius: 20px;
+  }
+
+  #menu-icon .text {
+    color: rgb(179, 92, 92);
+    font-family: "Candal", sans-serif;
+    display: block;
+    /*position: absolute;*/
+    /*bottom: 0;
+    font-size: 17px;
+    letter-spacing: 2.5px;
+  }*/
+
 #darkmode{
     font-size: 22px;
     cursor: pointer;
@@ -129,6 +156,15 @@ main[role="main-wrapper"] div.text-contents h3{font-size:26px; line-height:30px;
 
 main[role="main-wrapper"] div.text-contents p{text-align: center;; padding: 0 6%}*/
 
+/* スクロールCSS */
+.js-scroll {
+    opacity: 0;
+    transition: opacity 500ms;
+  }
+  
+  .js-scroll.scrolled {
+    opacity: 1;
+  }
 
 /*作品詳細*/
 .work-details{
@@ -704,9 +740,37 @@ button{
         padding: 11px 4%;
     }
     #menu-icon{
-        display: initial;
-        color: var(--text-color);
+        display:block;
+        position: relative;
+        /* text-align: center; */
     }
+    /*.bar1, .bar2, .bar3 {
+        width: 35px;
+        height: 5px;
+        background-color: #333;
+        margin: 6px 0;
+        transition: 0.4s;
+      }*/
+    #menu-icon:before, #menu-icon:after {
+        content: '';
+        width: 100%;
+        height: 2px;
+        background-color: var(--text-color);
+        display: block;
+        position: absolute;
+        border-radius: 2px;
+      }
+
+      #menu-icon .text{
+        font-size: .7rem;
+        display: block;
+        position: relative;
+        /* top: 1.45rem; */
+        /* left: 0px; */
+        /* bottom: 0; */
+        letter-spacing: .5px;
+    }
+
     header .navbar{
         position: absolute;
         top: -500px;
