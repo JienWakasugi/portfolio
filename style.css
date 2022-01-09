@@ -159,9 +159,9 @@ main[role="main-wrapper"] div.text-contents p{text-align: center;; padding: 0 6%
 /* スクロールCSS */
 
 .scroll-container {
-    height: 100vh;
-    min-height: 450px;
-    padding: 2rem 1rem;
+    /* height: 100vh; */
+    /* min-height: 450px; */
+    /* padding: 2rem 1rem; */
     display: flex;
     align-items: center;
     box-sizing: border-box;
@@ -200,8 +200,6 @@ main[role="main-wrapper"] div.text-contents p{text-align: center;; padding: 0 6%
   }
   */
  
-    
-  
   /**Styling scrollable elements*/
 
 .js-scroll {
@@ -593,12 +591,14 @@ div ul li{
     transition: .25s ease-out;
 }
 .modal p{
-    color: white;
+    color: white; 
     font-size: 1rem;
     position: absolute;
-    bottom: 5%;
+    /* bottom: 5%; */
+    bottom: 2%;
     left: 50%;
-    transform: translate(-50%, -5%);
+    transform: translate(-50%, -2%);
+    /* transform: translate(-50%, -5%); */
 }
 .modal.open{
     opacity: 1;
@@ -607,8 +607,8 @@ div ul li{
 .full-img{
     position: absolute;
     /*height: 70%;*/
-    max-height: 100%;
-    max-width:100%;
+    max-height: 90%;
+    max-width:90%;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%) scale(.5);
