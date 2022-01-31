@@ -61,11 +61,11 @@
     animation: fade-in-bottom 1s ease-in-out both;
   }
   
-  .scrolled.slide-left {
+  .scrolled.scrolled.slide-in-left {
     animation: slide-in-left 1s ease-in-out both;
   }
   
-  .scrolled.slide-right {
+  .scrolled.slide-in-right {
     animation: slide-in-right 1s ease-in-out both;
   }
 

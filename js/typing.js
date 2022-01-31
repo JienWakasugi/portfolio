@@ -1,20 +1,20 @@
 // type writing
 const texts= ['UX designer', 'UI designer', 'illustrator:)']
-let count = 0;
+let count_type = 0;
 let index = 0;
 let currentText = '';
 let letter = '';
 
 (function type(){
- if(count === texts.length){
-   count = 0;
+ if(count_type === texts.length){
+  count_type = 0;
  }
- currentText=texts[count];
+ currentText=texts[count_type];
  letter = currentText.slice(0, ++index);
 
  document.querySelector(".typing").textContent=letter;
  if(letter.length === currentText.length){
-   count++;
+  count_type++;
    index = 0;
  }
  setTimeout(type, 400);

@@ -212,6 +212,40 @@ main[role="main-wrapper"] div.text-contents p{text-align: center;; padding: 0 6%
     font-size: var(--p-font);
 }
 
+/* Qualification */
+.qualification_container{
+    row-gap: 2.5rem;
+}
+
+.qualification_title{
+    font-size: var(--medium-font);
+    color: var(--main-color);
+    margin-bottom: .1rem;/*適当*/
+    display: flex;
+    align-items: center;
+}
+.qualification_title-icon{
+    font-size: 1.5rem;
+    margin-right: 1rem;
+}
+.qualification_box{
+    padding-bottom: 1rem;
+    border-bottom:1px solid #ccc ;
+}
+.qualification_area{
+    font-size: var(--text-color);
+    /* color: var(--bg-color); */
+    margin-bottom: .5rem;
+    font-weight: var(--big-font);
+}
+.qualification_icon, .qualification_work{
+    font-size: var(--p-font);
+    color: var(--text-color);
+}
+.qualification-work{
+    display:block;
+}
+
 /*.home-text{
    
 }*/
