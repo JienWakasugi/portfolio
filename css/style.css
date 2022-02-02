@@ -372,7 +372,7 @@ main[role="main-wrapper"] div.text-contents p{text-align: center;; padding: 0 6%
 }
 
 .portfolio_content{
-    background-color:#fff;
+    background-color:var(--bg-color);
     border-radius: .5rem;
     padding-bottom: 1rem;
     overflow: hidden;
@@ -392,6 +392,7 @@ main[role="main-wrapper"] div.text-contents p{text-align: center;; padding: 0 6%
 
 .portfolio_data{
     padding: 1.5rem;
+    text-align: left;
 }
 
 .portfolio_subtitle{
