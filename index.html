@@ -4,24 +4,38 @@
     </head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Comprible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, inirl-axlw=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Jien Wakasugi Portofolio Website</title>
     <!--Link To CSS-->
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/typing.css">
+    <link rel="stylesheet" href="css/scroll.css">
     <!--Box Icons-->
     <link rel="stylesheet"
      href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
     <body>
         <header>
             <a href="#" class="logo">Jien Wakasugi</a>
-
-            <div class="bx bx-menu" id="menu-icon"></div>
+            <div  id="menu-icon">
+                <span class="icon"></span>
+                <span class="text">MENU</span>
+            </div>
+            <!--<span class="icon"></span>-->
+                <!--class="bx bx-menu"     menu-icon
+                    class="bx bx-menu-alt-left"
+            <div id="menu-icon">
+                <span class="icon"></span>
+                <span class="text">MENU</span>
+            </div>-->
 
             <ul class="navbar">
                 <li><a href="#home">Home</a></li>
                 <li><a href="#about">About</a></li>
                 <li><a href="#portfolio">Portfolio</a></li>
-                <div class="bx bx-moon" id="darkmode"></div>
+                <li><a href="#qualification">Qualification</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li><div class="bx bx-moon" id="darkmode"></div></li>
+                <!-- <div class="bx bx-moon" id="darkmode"></div> -->
             </ul>
         </header>
         <!--Home-->
@@ -30,12 +44,12 @@
                 <a href="#"><i class='bx bxl-github'></i></a>
             </div>
             <div class="home-img">
-                <img src="img/portlate.png" alt="">
+                <img src="img/portlate.jpg" alt="">
             </div>
             <div class="home-text">
                 <span>Hello, I'm</span>
                 <h1>Jien</h1>
-                <h2>Industrial Designer</h2>
+                <h1 class="typing">hi </h1>
             </div>
             <div class="scroll-down">
                 <a href="#about"></a>
@@ -44,39 +58,263 @@
                 <i class='bx bx-down-arrow-alt' ></i>
             </div>
         </section>
-        <!--About-->
+
+         <!--Portfolio-->
+         <!--  
+         <section class="portfolio" id="portfolio">
+            <div class="heading">
+                <h2>Portfolio</h2>
+                <span>My work</span>
+            </div>
+            <div class="portfolio-content">
+                <div class="portfolio-img">
+                    <a href="kitchenIoT-details.html">
+                    <img src="img/p1.png" alt="">
+                    </a>    
+                </div>
+                <div class="portfolio-img">
+                    <img src="img/p2.png" alt="">
+                </div>
+                <div class="portfolio-img">
+                    <img src="img/p3.png" alt="">
+                </div>
+                <div class="portfolio-img">
+                    <img src="img/p4.png" alt="">
+                </div>
+                <div class="portfolio-img">
+                    <img src="img/p5.png" alt="">
+                </div>
+                <div class="portfolio-img">
+                    <img src="img/p6.png" alt="">
+                </div>
+            </div>
+        </section>
+        -->
         <section class="about" id="about">
             <div class="heading">
                 <h2>About</h2>
                 <span>Introduction</span>
             </div>
-            <!--About Content-->
-            <div class="about-container">
+        </section>
+
+        <section class="portfolio" id="portfolio">
+            <span class="section-subtitle">My recent works</span>
+            <h2 class="section-title">Portofolio</h2>
+            <div class="portfolio_nav">
+                <span class="portfolio_item">All</span>
+                <span class="portfolio_item">Web</span>
+                <span class="portfolio_item">UI/UX</span>
+                <span class="portfolio_item">App</span>
+
+                <div class="portfolio_container">     <!--<div class="portfolio_container bg-grid"> -->
+                    <div class="portfolio_content bg-grid">
+                        <a href="kitchenIoT-details.html"><img src="img/p1.png" alt="" class="portfolio_img"></a>
+                        
+                        <div class="portfolio_data">
+                            <span class="portfolio_subtitle">Web development</span>
+                            <a href="kitchenIoT-details.html"><h2 class="portfolio_title">New portfolio of work done for a client.</h2></a>
+                            <a href="kitchenIoT-details.html" class="button button-link">View Details</a>
+                        </div>
+                         
+                       
+                    </div>
+
+                    <div class="portfolio_content">
+                        <a href="#"><img src="img/p2.png" alt="" class="portfolio_img"></a>
+                        
+                             <div class="portfolio_data">
+                            <span class="portfolio_subtitle">Web development</span>
+                            <a href="#"><h2 class="portfolio_title">New portfolio of work done for a client.</h2></a>
+                            <a href="#" class="button button-link">View Details</a>
+                        </div>
+                    </div>
+
+                    <div class="portfolio_content">
+                        <a href="#"><img src="img/p3.png" alt="" class="portfolio_img"></a>
+                             <div class="portfolio_data">
+                            <span class="portfolio_subtitle">Ux design</span>
+                            <a href="#"><h2 class="portfolio_title">New portfolio of work done for a client.</h2></a>
+                            <a href="#" class="button button-link">View Details</a>
+                        </div>
+                    </div>
+
+                    <div class="portfolio_content">
+                        <a href="#"><img src="img/p4.png" alt="" class="portfolio_img"></a>
+                            <div class="portfolio_data">
+                            <span class="portfolio_subtitle">Ux design</span>
+                            <a href="#"><h2 class="portfolio_title">New portfolio of work done for a client.</h2></a>
+                            <a href="#" class="button button-link">View Details</a>
+                        </div>
+                    </div>
+
+                    <div class="portfolio_content">
+                        <a href="#"><img src="img/p5.png" alt="" class="portfolio_img"></a>
+                              <div class="portfolio_data">
+                            <span class="portfolio_subtitle">Mobile App</span>
+                            <a href="#"><h2 class="portfolio_title">New portfolio of work done for a client.</h2></a>
+                            <a href="#" class="button button-link">View Details</a>
+                        </div>
+                    </div>
+
+                    <div class="portfolio_content">
+                        <a href="#"><img src="img/p6.png" alt="" class="portfolio_img"></a>
+                            <div class="portfolio_data">
+                            <span class="portfolio_subtitle">Mobile App</span>
+                            <a href="#"><h2 class="portfolio_title">New portfolio of work done for a client.</h2></a>
+                            <a href="#" class="button button-link">View Details</a>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <!--About-->
+        <section class="qualification" id="qualification">
+            <div class="heading">
+                <h2>Qualification</h2>
+                <span>Work experience & Education </span>
+            </div>
+
+            <!-- <div class="scroll-container"> 
+                <div class="scroll-element js-scroll fade-in-bottom">
+                    
+                </div>
+                
+            </div> -->
+
+            <div class="qualification_container bg-grid">
+                <div class="qualification_content">
+                    <h2 class="qualification_title">
+                        <i class="bx bx-briefcase-alt qualification_title-icon"></i>
+                        Work Experience
+                    </h2>
+
+                    <div class="bg-grid">
+                        <div class="qualification_data">
+                            <h3 class="qualification_area">Senior Front End Developer</h3>
+                            
+                            <div class="qualification_box">
+                                <span class="qualification-work">
+                                    <i class="bx bx-briefcase-alt qualification_icon"></i>
+                                    Adobe - New York
+                                </span>
+
+                                <span class="qualification-work">
+                                    <i class="bx bx-calendar-alt qualification_icon"></i>
+                                    Jan 2019 - Aug 2019
+                                </span>
+
+                            </div>
+                        </div>
+
+                        <div class="qualification_data">
+                            <h3 class="qualification_area">Ui / Ux Designer</h3>
+                            
+                            <div class="qualification_box">
+                                <span class="qualification-work">
+                                    <i class="bx bx-briefcase-alt qualification_icon"></i>
+                                    Figma - Lima
+                                </span>
+
+                                <span class="qualification-work">
+                                    <i class="bx bx-calendar-alt qualification_icon"></i>
+                                    Oct 2019 - Dec 2019
+                                </span>
+
+                            </div>
+                        </div>
+
+                        <div class="qualification_data">
+                            <h3 class="qualification_area">Web Designer</h3>
+                            
+                            <div class="qualification_box">
+                                <span class="qualification-work">
+                                    <i class="bx bx-briefcase-alt qualification_icon"></i>
+                                    Apple Inc - New York
+                                </span>
+
+                                <span class="qualification-work">
+                                    <i class="bx bx-calendar-alt qualification_icon"></i>
+                                    Jan 2020 - Aug 2020
+                                </span>
+
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+                <div class="qualification_content">
+                    <h2 class="qualification_title">
+                        <i class="bx bx-bookmark qualification_title-icon"></i>
+                        Education
+                    </h2>
+
+                    <div class="bg-grid">
+                        <div class="qualification_data">
+                            <h3 class="qualification_area">Computer technician</h3>
+                            
+                            <div class="qualification_box">
+                                <span class="qualification-work">
+                                    <i class="bx bx-book-alt qualification_icon"></i>
+                                   Lima - Computer institute
+                                </span>
+
+                                <span class="qualification-work">
+                                    <i class="bx bx-calendar-alt qualification_icon"></i>
+                                    April 2015 - March 2018
+                                </span>
+
+                            </div>
+                        </div>
+
+                        <div class="qualification_data">
+                            <h3 class="qualification_area">Master in Web developer</h3>
+                            
+                            <div class="qualification_box">
+                                <span class="qualification-work">
+                                    <i class="bx bx-book-alt qualification_icon"></i>
+                                    Madrid - Design institute
+                                </span>
+
+                                <span class="qualification-work">
+                                    <i class="bx bx-calendar-alt qualification_icon"></i>
+                                    Jan 2019 - Aug 2019
+                                </span>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--About Content--> 
+            <!-- <div class="about-container"> 
                 <div class="about-img">
                     <img src="img/about.png" alt="">
                 </div>
                 <div class="about-text">
                     <p>富山県出身</p>
-                    <div class="information">
+                    <div class="information">-->
                         <!-- Box 1-->
-                        <div class="info-box">
+                        <!-- <div class="info-box"> 
                             <i class='bx bxs-user' ></i>
                             <span>若杉慈円(Jien Wakasugi)</span>
-                        </div>
+                        </div>-->
                         <!-- Box 2-->
-                        <div class="info-box">
+                        <!-- <div class="info-box"> 
                             <i class='bx bxs-phone' ></i>
                             <span>080-6353-3312</span>
-                        </div>
+                        </div>-->
                         <!-- Box 3-->
-                        <div class="info-box">
+                        <!-- <div class="info-box"> 
                             <i class='bx bxs-envelope' ></i>
                             <span>z.wakasugi(a)gmail.com</span>
                         </div>
                     </div>
                     <a href="#"class="btn">Download CV</a>
                 </div>
-            </div>
+            </div>-->
         </section>
         <!-- Skills -->
         <section class="skills" id="skills">
@@ -122,35 +360,7 @@
             </div>
 
         </section>
-        <!--Portfolio-->
-        <section class="portfolio" id="portfolio">
-            <div class="heading">
-                <h2>Portfolio</h2>
-                <span>My work</span>
-            </div>
-            <div class="portfolio-content">
-                <div class="portfolio-img">
-                    <a href="kitchenIoT-details.html">
-                    <img src="img/p1.png" alt="">
-                    </a>    
-                </div>
-                <div class="portfolio-img">
-                    <img src="img/p2.png" alt="">
-                </div>
-                <div class="portfolio-img">
-                    <img src="img/p3.png" alt="">
-                </div>
-                <div class="portfolio-img">
-                    <img src="img/p4.png" alt="">
-                </div>
-                <div class="portfolio-img">
-                    <img src="img/p5.png" alt="">
-                </div>
-                <div class="portfolio-img">
-                    <img src="img/p6.png" alt="">
-                </div>
-            </div>
-        </section>
+       
         <div class="footer">
             <h2>Jien</h2>
             <div class="footer-social">
@@ -163,6 +373,8 @@
             <p>&#169 Jien Wakasugi All Right Reserved.</p>
         </div>
         <!--Link to JS-->
-        <script src="main.js"></script>
+        <script src="js/main.js"></script>
+        <script src="js/typing.js"></script> 
+        <script src="js/scroll.js"></script>
     </body>
 </html>
