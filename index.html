@@ -10,6 +10,8 @@
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/typing.css">
     <link rel="stylesheet" href="css/scroll.css">
+    <link rel="stylesheet" href="css/portfolio.css">
+    <link rel="stylesheet" href="css/filter.css">
     <!--Box Icons-->
     <link rel="stylesheet"
      href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
@@ -90,6 +92,7 @@
             </div>
         </section>
         -->
+        <!-- About -->
         <section class="about" id="about">
             <div class="heading">
                 <h2>About</h2>
@@ -98,84 +101,92 @@
         </section>
 
         <section class="portfolio" id="portfolio">
-            <span class="section-subtitle">My recent works</span>
-            <h2 class="section-title">Portofolio</h2>
+            <!--  <span class="section-subtitle">My recent works</span>
+            <h2 class="section-title">Portofolio</h2>  -->
+            <div class="heading">
+                <h2>My recent works</h2>
+                <span>Portofolio</span>
+            </div>
+            
+                <ul class="gallery">
+                    <li class="filter active" data-filter ="all">All</li>
+                    <li class="filter" data-filter ="ui">UI</li>
+                    <li class="filter" data-filter ="ux">UX</li>
+                    <li class="filter" data-filter ="Illustration">Illustration</li>
+                </ul>
+
             <div class="portfolio_nav">
-                <span class="portfolio_item">All</span>
-                <span class="portfolio_item">Web</span>
-                <span class="portfolio_item">UI/UX</span>
-                <span class="portfolio_item">App</span>
-
+                <!-- <span class="portfolio_item">All</span>
+                <span class="portfolio_item">UI</span>
+                <span class="portfolio_item">UX</span>
+                <span class="portfolio_item">Illustration</span> -->
                 <div class="portfolio_container">     <!--<div class="portfolio_container bg-grid"> -->
-                    <div class="portfolio_content bg-grid">
-                        <a href="kitchenIoT-details.html"><img src="img/p1.png" alt="" class="portfolio_img"></a>
-                        
-                        <div class="portfolio_data">
-                            <span class="portfolio_subtitle">Web development</span>
-                            <a href="kitchenIoT-details.html"><h2 class="portfolio_title">New portfolio of work done for a client.</h2></a>
-                            <a href="kitchenIoT-details.html" class="button button-link">View Details</a>
-                        </div>
-                         
-                       
+                    <!-- <div class="portfolio_content bg-grid"> -->
+                    <div class="portfolio_content ux">
+                        <a href="kitchenIoT-details.html"><img src="img/p1.png" data-item="ux" alt="" class="portfolio_img"></a>
+                            <div class="portfolio_data" >
+                                <span class="portfolio_subtitle">Web development</span>
+                                <a href="kitchenIoT-details.html"><h2 class="portfolio_title">New portfolio of work done for a client.</h2></a>
+                                <a href="kitchenIoT-details.html" class="button button-link">View Details</a>
+                            </div>                      
                     </div>
 
-                    <div class="portfolio_content">
-                        <a href="#"><img src="img/p2.png" alt="" class="portfolio_img"></a>
-                        
-                             <div class="portfolio_data">
-                            <span class="portfolio_subtitle">Web development</span>
-                            <a href="#"><h2 class="portfolio_title">New portfolio of work done for a client.</h2></a>
-                            <a href="#" class="button button-link">View Details</a>
-                        </div>
+                    <div class="portfolio_content ux">
+                        <a href="#"><img src="img/p2.png" data-item="ux" alt="" class="portfolio_img"></a>
+                            <div class="portfolio_data" >
+                                <span class="portfolio_subtitle">Web development</span>
+                                <a href="#"><h2 class="portfolio_title">New portfolio of work done for a client.</h2></a>
+                                <a href="#" class="button button-link">View Details</a>
+                            </div>
                     </div>
 
-                    <div class="portfolio_content">
-                        <a href="#"><img src="img/p3.png" alt="" class="portfolio_img"></a>
-                             <div class="portfolio_data">
-                            <span class="portfolio_subtitle">Ux design</span>
-                            <a href="#"><h2 class="portfolio_title">New portfolio of work done for a client.</h2></a>
-                            <a href="#" class="button button-link">View Details</a>
-                        </div>
+                    <div class="portfolio_content ui">
+                        <a href="#"><img src="img/p3.png" data-item="ui" alt="" class="portfolio_img"></a>
+                            <div class="portfolio_data" >
+                                <span class="portfolio_subtitle">Ux design</span>
+                                <a href="#"><h2 class="portfolio_title">New portfolio of work done for a client.</h2></a>
+                                <a href="#" class="button button-link">View Details</a>
+                            </div>
                     </div>
 
-                    <div class="portfolio_content">
-                        <a href="#"><img src="img/p4.png" alt="" class="portfolio_img"></a>
-                            <div class="portfolio_data">
-                            <span class="portfolio_subtitle">Ux design</span>
-                            <a href="#"><h2 class="portfolio_title">New portfolio of work done for a client.</h2></a>
-                            <a href="#" class="button button-link">View Details</a>
-                        </div>
+                    <div class="portfolio_content ui">
+                        <a href="#"><img src="img/p4.png" data-item="ui" alt="" class="portfolio_img"></a>
+                            <div class="portfolio_data" >
+                                <span class="portfolio_subtitle">Ux design</span>
+                                <a href="#"><h2 class="portfolio_title">New portfolio of work done for a client.</h2></a>
+                                <a href="#" class="button button-link">View Details</a>
+                            </div>
                     </div>
 
-                    <div class="portfolio_content">
-                        <a href="#"><img src="img/p5.png" alt="" class="portfolio_img"></a>
-                              <div class="portfolio_data">
-                            <span class="portfolio_subtitle">Mobile App</span>
-                            <a href="#"><h2 class="portfolio_title">New portfolio of work done for a client.</h2></a>
-                            <a href="#" class="button button-link">View Details</a>
-                        </div>
+                    <div class="portfolio_content Illustration">
+                        <a href="#"><img src="img/p5.png" data-item="Illusttration" alt="" class="portfolio_img"></a>
+                            <div class="portfolio_data" >
+                                <span class="portfolio_subtitle">Mobile App</span>
+                                <a href="#"><h2 class="portfolio_title">New portfolio of work done for a client.</h2></a>
+                                <a href="#" class="button button-link">View Details</a>
+                            </div>
                     </div>
 
-                    <div class="portfolio_content">
-                        <a href="#"><img src="img/p6.png" alt="" class="portfolio_img"></a>
-                            <div class="portfolio_data">
-                            <span class="portfolio_subtitle">Mobile App</span>
-                            <a href="#"><h2 class="portfolio_title">New portfolio of work done for a client.</h2></a>
-                            <a href="#" class="button button-link">View Details</a>
-                        </div>
+                    <div class="portfolio_content Illustration">
+                        <a href="#"><img src="img/p6.png" data-item="Illusttration" alt="" class="portfolio_img"></a>
+                            <div class="portfolio_data" >
+                                <span class="portfolio_subtitle">Mobile App</span>
+                                <a href="#"><h2 class="portfolio_title">New portfolio of work done for a client.</h2></a>
+                                <a href="#" class="button button-link">View Details</a>
+                            </div>
                     </div>
 
                 </div>
             </div>
         </section>
 
-        <!--About-->
+        <!--Qualification-->
         <section class="qualification" id="qualification">
             <div class="heading">
                 <h2>Qualification</h2>
                 <span>Work experience & Education </span>
             </div>
-
+            <!-- スクロースさせたいとき -->
             <!-- <div class="scroll-container"> 
                 <div class="scroll-element js-scroll fade-in-bottom">
                     
@@ -316,6 +327,55 @@
                 </div>
             </div>-->
         </section>
+
+        <!--Contact-->
+        <section class="contact section bd-container" id="contact">
+            <div class="heading">
+                <h2>Contact</h2>
+                <span>mail&chat</span>
+            </div>
+            <div class="contact_container bg-grid">
+                <div class="contact_content bg-grid">
+                    <div class="contact_box">
+                        <i class="bx bx-home contact_icon"></i>
+                        <h3 class="contact_title">Location</h3>
+                        <span class="contact_description">#123 Lima-Peru</span>
+                    </div>
+                
+                    <div class="contact_box">
+                        <div class="contact_content bg-grid">
+                        
+                        </div>
+                        <i class="bx bx-phone contact_icon"></i>
+                        <h3 class="contact_title">Phone</h3>
+                        <span class="contact_description">080-6353-3312</span>
+                    </div>
+    
+                    <div class="contact_box">
+                        <div class="contact_content bg-grid">
+                        
+                        </div>
+                        <i class="bx bx-envelope contact_icon"></i>
+                        <h3 class="contact_title">Gmail</h3>
+                        <span class="contact_description">z.wakasugi(a)gmail.com</span>
+                    </div>
+    
+                    <div class="contact_box">
+                        <div class="contact_content bg-grid">
+                        
+                        </div>
+                        <i class="bx bx-chat contact_icon"></i>
+                        <h3 class="contact_title">Chat</h3>
+                        <div>
+                            <a href="#" class="contact_social" ><i class="bx bxl-whatsapp-square"></i></a>
+                            <a href="#" class="contact_social" ><i class="bx bxl-telegram"></i></a>
+                            <a href="#" class="contact_social" ><i class="bx bxl-messenger"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </section>
         <!-- Skills -->
         <section class="skills" id="skills">
             <div class="heading">
@@ -376,5 +436,6 @@
         <script src="js/main.js"></script>
         <script src="js/typing.js"></script> 
         <script src="js/scroll.js"></script>
+        <script src="js/filter.js"></script>
     </body>
 </html>

@@ -213,7 +213,10 @@ main[role="main-wrapper"] div.text-contents p{text-align: center;; padding: 0 6%
 
 /* Qualification */
 .qualification_container{
-    row-gap: 2.5rem;
+    /* row-gap: 2rem; */
+    column-gap: 2rem;
+    grid-template-columns: repeat(auto-fit, minmax(280px, auto));
+    display: grid;
 }
 
 .qualification_title{
@@ -243,6 +246,29 @@ main[role="main-wrapper"] div.text-contents p{text-align: center;; padding: 0 6%
 }
 .qualification-work{
     display:block;
+}
+
+/*Contact*/
+.contact_container{
+    row-gap: 2.5rem;
+}
+
+.contact_content{
+    /* grid-template-columns: repeat(auto-fit, minmax(220px,1fr)); */
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, auto));
+    gap:1rem;
+    
+}
+
+.contact_box{
+    background-color:var(--bg-color) ;
+    border-radius: .5rem;
+    padding: 1.5rem;
+    margin-top: 2rem;
+    margin-bottom: 1rem; 
+    text-align: center;
+    box-shadow: 0 4px 6px rgba(175, 190, 205, .3);
 }
 
 /*.home-text{
@@ -355,12 +381,12 @@ main[role="main-wrapper"] div.text-contents p{text-align: center;; padding: 0 6%
 }*/
 
 /* Portfolio */
-.portfolio_nav{
+/*.portfolio_nav{
     text-align: center;
     margin-bottom: 1rem;
 }
 .portfolio_item{
-    margin: 0 .8rem;
+    margin: 0 .2rem;
     cursor: pointer;
 }
 
@@ -410,16 +436,9 @@ main[role="main-wrapper"] div.text-contents p{text-align: center;; padding: 0 6%
 }
 .portfolio_content:hover .portfolio_img{
     transform: scale(1.02);
-}
+}*/
 
-.button-link{
-    background: none;
-    color: var(--main-color);
-    padding: 0;
-}
-.button-link:hover{
-    background: none;
-}
+
 
 .footer{
     display: grid;
