@@ -1,8 +1,17 @@
-.portfolio .portfolio_nav .portfolio_container .portfolio_content.show{
+/* .portfolio .portfolio_nav .portfolio_container .portfolio_content.show{ 
     animation: show .5s ease 0s 1 forwards;
     transform-origin: center;
 }
 .portfolio .portfolio_nav .portfolio_container .portfolio_content.hide{
+    animation: hide .5s ease 0s 1 forwards;
+    transform-origin: center;
+}
+*/
+.portfolio  .portfolio_container .portfolio_content.show{ 
+    animation: show .5s ease 0s 1 forwards;
+    transform-origin: center;
+}
+.portfolio  .portfolio_container .portfolio_content.hide{
     animation: hide .5s ease 0s 1 forwards;
     transform-origin: center;
 }
