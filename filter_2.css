@@ -1,0 +1,48 @@
+.portfolio_container{
+    max-width: 1200px;
+    margin: auto;
+    padding: 15px;
+    text-align: center;
+}
+
+.filter-item li{
+    width: 50%;
+    padding: 2px;
+    float: left;
+}
+
+.filter-item li.active{
+    width: 50%;
+    padding: 2px;
+    transition: all 0.5s ease;
+}
+
+.filter-item li.delete{
+    width: 0%;
+    padding: 0;
+    transition: all 0.5s ease;
+}
+.filter-item img{
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+
+.filter-item img{
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+
+@media screen and (min-width: 768px){
+    .filter-item li.active,
+    .filter-item li{
+        width: 33.33%;
+    }
+}
+@media screen and (min-width: 1280px){
+    .filter-item li.active,
+    .filter-item li{
+        width: 25%;
+    }
+}
