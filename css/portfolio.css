@@ -10,6 +10,11 @@
     margin: 40px auto;
 }*/
  
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+
 .portfolio ul {
     display: flex;
     justify-content: center;
@@ -44,21 +49,35 @@
     cursor: pointer;
 }
 
-.portfolio_container{
-    display: grid;
+.portfolio .portfolio_nav{
+    /* display: grid; 
     grid-template-columns: repeat(auto-fit, minmax(280px, auto));
     gap:1rem;
-    margin-top: 2rem;
+    margin-top: 2rem;*/
+    flex: 0 0 100%;
+    max-width: 100%;
+    display: flex;
+    flex-wrap: wrap;
 }
 
-.portfolio_content{
-    background-color:var(--bg-color);
+.portfolio .portfolio_nav .portfolio_container{
+    /* background-color:var(--bg-color); */ /*箱の色*/
+    flex: 0 0 33.33%;
+    max-width: 33.33%;
+    position: relative;
+    padding: 8px;
+/*  
+    background-color:rgb(44, 177, 177);
     border-radius: .5rem;
     padding-bottom: 1rem;
     overflow: hidden;
-    box-shadow: 0 4px 6px rgba(175, 190, 205, .3);
+    box-shadow: 0 4px 6px rgba(175, 190, 205, .3);*/
+}
+.portfolio .portfolio_nav .portfolio_container .portfolio_content{
+    position: relative;
 }
 .portfolio_img{
+    display: block;
     width: 100%;
     transition: .4s;
 }
@@ -100,3 +119,35 @@
 .button-link:hover{
     background: none;
 }
+
+/*  
+.portfolio .portfolio-gallery{
+    flex: 0 0 100%;
+    max-width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+.portfolio .portfolio-gallery .item{
+    flex: 0 0 33.33%;
+    max-width: 33.33%;
+    position: relative;
+    padding: 8px;
+  
+}
+.portfolio .portfolio-gallery .item .inner{
+    position: relative;
+}
+.portfolio .portfolio-gallery .item img{
+    width: 100%;
+    display: block;
+}
+
+.container{
+    max-width: 1140px;
+    margin: auto;
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+*/
