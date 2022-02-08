@@ -55,7 +55,6 @@
     cursor: pointer;
 }
 
-<<<<<<< Updated upstream
 .portfolio .portfolio_nav{
     /* display: grid; 
     grid-template-columns: repeat(auto-fit, minmax(280px, auto));
@@ -82,7 +81,7 @@
 }
 .portfolio .portfolio_nav .portfolio_container .portfolio_content{
     position: relative;
-=======
+}
 .portfolio .portfolio_container{
     /* display: grid;
     grid-template-columns: repeat(auto-fit, minmax(280px, auto));
@@ -106,7 +105,6 @@
     overflow: hidden;
     background-color: royalblue;
     box-shadow: 0 4px 6px rgba(175, 190, 205, .3);
->>>>>>> Stashed changes
 }
    /* display: block; */
     /* background-color:var(--bg-color); */

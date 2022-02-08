@@ -210,9 +210,12 @@ main[role="main-wrapper"] div.text-contents p{text-align: center;; padding: 0 6%
 .heading span{
     font-size: var(--p-font);
 }
-
+.qualification{
+    clear: left;
+}
 /* Qualification */
 .qualification_container{
+    
     /* row-gap: 2rem; */
     column-gap: 2rem;
     grid-template-columns: repeat(auto-fit, minmax(280px, auto));
@@ -611,4 +614,9 @@ main[role="main-wrapper"] div.text-contents p{text-align: center;; padding: 0 6%
     .portfolio-content{
         grid-template-columns: repeat(auto-fit, minmax(200px, auto));
     }
+    .portfolio_container{
+        height:1000em; 
+        /* height: 40em; */
+        /* padding-bottom: 10rem; */
+   }
  }
