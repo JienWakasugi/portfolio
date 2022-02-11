@@ -74,7 +74,7 @@
     .portfolio_container{
         /* height: 200%; */
          /* height: 26em;   */
-         min-height: 80vh;
+         min-height: 50vh;
     }
 }
 /*  
@@ -88,7 +88,7 @@
 
 @media screen and (max-width: 2880px){
     .portfolio_container{
-        min-height: 60vh;
+        min-height: 70vh;
         /* height: 37em; */
     }
 }

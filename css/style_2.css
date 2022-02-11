@@ -144,7 +144,7 @@ header.shadow{
 .home-text  p{
     font-size: var(--p-font);
     font-weight: 400;
-    margin: 0.7rem 0 1rem;
+    /* margin: 0.7rem 0 1rem; */
 }
 
 main[role="main-wrapper"] {
@@ -213,9 +213,7 @@ main[role="main-wrapper"] div.text-contents p{text-align: center;; padding: 0 6%
 .heading span{
     font-size: var(--p-font);
 }
-.qualification{
-    clear: left;
-}
+
 
 .about .my_introduction{
     text-align: center;
@@ -225,12 +223,21 @@ p .exp{
     font-size: var(--p-font);
     font-weight: 400;
     margin: 0.7rem 0 1rem;
-    text-align: left;
+    text-align: justify;
+    text-justify: inter-ideograph;
 }
 
 /* Qualification */
+.qualification{
+     clear: left; 
+}
 .qualification_container{
-    /* row-gap: 2rem; */
+    max-width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.qualification_container{
     column-gap: 2rem;
     grid-template-columns: repeat(auto-fit, minmax(280px, auto));
     display: grid;
@@ -239,22 +246,26 @@ p .exp{
 .qualification_title{
     font-size: var(--medium-font);
     color: var(--main-color);
-    margin-bottom: .1rem;/*適当*/
+    margin-top: .5rem;
+    margin-bottom: .1rem;
     display: flex;
     align-items: center;
+    /* text-align: center; */
+    /* padding-right: 50%; */
 }
 .qualification_title-icon{
     font-size: 1.5rem;
     margin-right: 1rem;
 }
 .qualification_box{
-    padding-bottom: 1rem;
-    border-bottom:1px solid #ccc ;
+    padding-top: .1rem;
+    padding-bottom: .2rem;
+    border-bottom:1px solid var(--main-color) ;
 }
 .qualification_area{
     font-size: var(--text-color);
-    /* color: var(--bg-color); */
-    margin-bottom: .5rem;
+    margin-top: .1rem;
+    margin-bottom: .1rem;
     font-weight: var(--big-font);
 }
 .qualification_icon, .qualification_work{
@@ -264,6 +275,7 @@ p .exp{
 .qualification-work{
     display:block;
 }
+
 
 /*Contact*/
 .contact_container{
@@ -321,6 +333,7 @@ p .exp{
     font-weight: 400;
     margin-left: 1rem;
 }
+/*  
 .skills-container{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -361,7 +374,6 @@ p .exp{
     height: 0.5rem;
     background: var(--main-color);
     border-radius: 0.5rem;
-    /*width: 100%;*/
 }
 .html-bar{
     width: 94%
@@ -375,6 +387,7 @@ p .exp{
 .react-bar{
     width: 94%
 }
+*/
 /*  
 .portfolio-content{
     display: grid;
