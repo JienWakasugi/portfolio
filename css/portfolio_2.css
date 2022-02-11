@@ -73,8 +73,8 @@
  @media screen and (max-width: 1280px){
     .portfolio_container{
         /* height: 200%; */
-         height: 26em;  
-          
+         /* height: 26em;   */
+         min-height: 80vh;
     }
 }
 /*  
@@ -88,8 +88,8 @@
 
 @media screen and (max-width: 2880px){
     .portfolio_container{
-       
-        height: 37em;
+        min-height: 60vh;
+        /* height: 37em; */
     }
 }
 

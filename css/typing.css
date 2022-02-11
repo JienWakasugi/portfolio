@@ -1,6 +1,6 @@
 .typing{
     position: relative;
-    margin-left:10px ;
+     margin-left:-4px ; 
 }
 .typing::after{
     content: "";

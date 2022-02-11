@@ -28,23 +28,28 @@
                 <li><a href="#about">About</a></li>
                 <li><a href="#portfolio">Portfolio</a></li>
                 <li><a href="#qualification">Qualification</a></li>
-                <li><a href="#contact">Contact</a></li>
+                <!-- <li><a href="#contact">Contact</a></li> -->
                 <li><div class="bx bx-moon" id="darkmode"></div></li>
             </ul>
         </header>
         <!--Home-->
         <section class="home" id="home">
-            <div class="social">
+            <div class="social"> 
                 <a href="#"><i class='bx bxl-github'></i></a>
             </div>
-            <div class="home-img">
+            
+             <div class="home-img">
                 <img src="img/portlate.jpg" alt="">
             </div>
+            
             <div class="home-text">
-                <span>Hello, I'm</span>
-                <h1>Jien</h1>
-                <h1 class="typing">hi </h1>
+                <div class="introduction">
+                    <span>Hello, I'm</span>
+                    <h1>Jien</h1>
+                    <h1 class="typing">hi </h1>
+                </div>
             </div>
+        
             <div class="scroll-down">
                 <a href="#about"></a>
                 <i class='bx bx-mouse' ></i>
@@ -59,13 +64,66 @@
                 <h2>About</h2>
                 <span>Introduction</span>
             </div>
+        <div class="my_introduction">
+            <p class="exp">UIデザイナーとしてtoB向けの製品開発に取り組んでいます。<br/>今後はUXに関わる仕事に取り組んでいきたいと考えています。</p>
+        </div>
+            
         </section>
 
         <section class="portfolio" id="portfolio">
+             <div class="scroll-container"> 
+                <div class="scroll-element js-scroll fade-in-bottom">
+                    <div class="heading">
+                        <h2>My recent works</h2>
+                        <span>Portofolio</span>
+                    </div>
+                            <div class="portfolio_container">
+        
+                                <ul class="filter-menu" id="filter-btns">
+                                    <li class="filter current" data-target ="all">All</li>
+                                    <li class="filter" data-target ="ui">UI</li>
+                                    <li class="filter" data-target ="ux">UX</li>
+                                    <li class="filter" data-target ="Illustration">Illustration</li>
+                                </ul>
+        
+                                <ul class="filter-item">
+        
+                                    <li data-item="ui"> 
+                                        <a href="kitchenIoT-details.html"><img src="img/p1.png" data-item="ux" alt="" class="portfolio_img"></a> 
+                                    </li>
+                                    
+                                    <li data-item="ui">
+                                        <a href="#"><img src="img/p2.png" data-item="ux" alt="" class="portfolio_img"></a>
+                                    </li>
+        
+                                    <li data-item="ux">
+                                        <a href="#"><img src="img/p3.png" data-item="ui" alt="" class="portfolio_img"></a>
+                                    </li>
+        
+                                    <li data-item="ui">
+                                        <a href="#"><img src="img/p4.png" data-item="ui" alt="" class="portfolio_img"></a>
+                                    </li>
+        
+                                    <li data-item="ui">
+                                        <a href="#"><img src="img/p5.png" data-item="Illusttration" alt="" class="portfolio_img"></a>
+                                    </li>
+        
+                                    <li data-item="Illustration">
+                                            <a href="#"><img src="img/p6.png" data-item="Illusttration" alt="" class="portfolio_img"></a>     
+                                    </li>
+                                  
+                                </ul>
+                            
+                
+                            </div>     
+                </div>
+                
+            </div> 
+            <!-- 
             <div class="heading">
                 <h2>My recent works</h2>
                 <span>Portofolio</span>
-            </div>
+            </div> 
                     <div class="portfolio_container">
 
                         <ul class="filter-menu" id="filter-btns">
@@ -104,24 +162,124 @@
                         </ul>
                     
         
-                    </div>            
+                    </div>   -->         
         </section>
 
         <!--Qualification-->
         <section class="qualification" id="qualification">
+            <div class="scroll-container"> 
+                <div class="scroll-element js-scroll fade-in-bottom">
+                    <div class="heading">
+                        <h2>Qualification</h2>
+                        <span>Work experience & Education </span>
+                    </div>
+
+                    <div class="qualification_container bg-grid">
+                        <div class="qualification_content">
+                            <h2 class="qualification_title">
+                                <i class="bx bx-briefcase-alt qualification_title-icon"></i>
+                                Work Experience
+                            </h2>
+        
+                            <div class="bg-grid">
+                                <div class="qualification_data">
+                                    <h3 class="qualification_area">デザイナー</h3>
+                                    
+                                    <div class="qualification_box">
+                                        <span class="qualification-work">
+                                            <i class="bx bx-briefcase-alt qualification_icon"></i>
+                                            村田機械 - 京都
+                                        </span>
+        
+                                        <span class="qualification-work">
+                                            <i class="bx bx-calendar-alt qualification_icon"></i>
+                                             2020/04 - 
+                                        </span>
+        
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+        
+                        <div class="qualification_content">
+                            <h2 class="qualification_title">
+                                <i class="bx bx-bookmark qualification_title-icon"></i>
+                                Education
+                            </h2>
+        
+                            <div class="bg-grid">
+                                <div class="qualification_data">
+                                    <h3 class="qualification_area">コンテンツ・クリエイティブデザインコース</h3>
+                                    
+                                    <div class="qualification_box">
+                                        <span class="qualification-work">
+                                            <i class="bx bx-book-alt qualification_icon"></i>
+                                           <a href="https://www.design.kyushu-u.ac.jp/">九州大学大学院 - 福岡県</a> 
+                                        </span>
+        
+                                        <span class="qualification-work">
+                                            <i class="bx bx-calendar-alt qualification_icon"></i>
+                                            2017/01 - 2020/03
+                                        </span>
+        
+                                    </div>
+                                </div>
+        
+                                <div class="qualification_data">
+                                    <h3 class="qualification_area">デジタルソサエティスクール</h3>
+                                    
+                                    <div class="qualification_box">
+                                        <span class="qualification-work">
+                                            <i class="bx bx-book-alt qualification_icon"></i>
+                                            <a href="https://digitalsocietyschool.org/"> アムステルダム応用科学大学　- オランダ</a>
+                                        </span>
+        
+                                        <span class="qualification-work">
+                                            <i class="bx bx-calendar-alt qualification_icon"></i>
+                                            2019/01 - 2019/09
+                                        </span>
+        
+                                    </div>
+                                </div>
+
+                                <div class="qualification_data">
+                                    <h3 class="qualification_area">デザイン経営工学</h3>
+                                    
+                                    <div class="qualification_box">
+                                        <span class="qualification-work">
+                                            <i class="bx bx-book-alt qualification_icon"></i>
+                                            <a href="https://www.kit.ac.jp/"> 京都工芸繊維大学 - 京都</a>
+                                        </span>
+        
+                                        <span class="qualification-work">
+                                            <i class="bx bx-calendar-alt qualification_icon"></i>
+                                            2015/4 - 2017/03
+                                        </span>
+        
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+            </div> 
+            <!-- 
             <div class="heading">
                 <h2>Qualification</h2>
                 <span>Work experience & Education </span>
             </div>
-            <!-- スクロースさせたいとき -->
+             -->
+            
+             <!-- スクロースさせたいとき -->
             <!-- <div class="scroll-container"> 
                 <div class="scroll-element js-scroll fade-in-bottom">
                     
                 </div>
                 
             </div> -->
-
-            <div class="qualification_container bg-grid">
+            
+        <!-- <div class="qualification_container bg-grid">
                 <div class="qualification_content">
                     <h2 class="qualification_title">
                         <i class="bx bx-briefcase-alt qualification_title-icon"></i>
@@ -226,10 +384,12 @@
                     </div>
                 </div>
             </div>
+        -->
           
         </section>
 
         <!--Contact-->
+        <!--  
         <section class="contact section bd-container" id="contact">
             <div class="heading">
                 <h2>Contact</h2>
@@ -277,50 +437,10 @@
             </div>
 
         </section>
+        -->
         <!-- Skills -->
-        <section class="skills" id="skills">
-            <div class="heading">
-                <h2>Skills</h2>
-                <span>My Skills</span>
-            </div>
-            <!-- Skills Contents-->
-            <div class="skills-container">
-                <div class="bars">
-                    <!-- Box 1-->
-                    <div class="bars-box">
-                        <h3>HTML</h3>
-                        <span>94%</span>
-                        <div class="light-bar"></div>
-                        <div class="percent-bar html-bar"></div>
-                    </div>
-                <!-- Box 2-->
-                    <div class="bars-box">
-                        <h3>CSS</h3>
-                        <span>94%</span>
-                        <div class="light-bar"></div>
-                        <div class="percent-bar CSS-bar"></div>
-                    </div>
-                <!-- Box 3-->
-                    <div class="bars-box">
-                        <h3>JavaScript</h3>
-                        <span>94%</span>
-                        <div class="light-bar"></div>
-                        <div class="percent-bar js-bar"></div>
-                    </div>
-                <!-- Box 4-->
-                    <div class="bars-box">
-                        <h3>React</h3>
-                        <span>94%</span>
-                        <div class="light-bar"></div>
-                        <div class="percent-bar react-bar"></div>
-                    </div>
-                </div>
-                    <div class="skills-img">
-                        <img src="img/skills.png" alt="">
-                    </div>
-            </div>
-
-        </section>
+        
+      
 
         <div class="footer">
             <h2>Jien</h2>

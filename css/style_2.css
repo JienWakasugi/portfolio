@@ -115,11 +115,12 @@ header.shadow{
     position: relative;
     width: 100%;
     min-height: 100vh;
-    display: grid;
+    display: grid; 
     grid-template-columns: 0.2fr 1fr 1fr;
     align-items: center;
     gap: 1rem;
 }
+
 .home-img{
     order: 3;
 }
@@ -127,18 +128,20 @@ header.shadow{
     width: 100%;
     border-radius: 0.5rem;
 }
-.home-text span{
+
+.home-text  span{
     font-size: var(--medium-font);
     font-weight: 500;
 }
-.home-text h1{
+.home-text  h1{
     font-size: var(--big-font);
+    margin-left: -2px;
 }
-.home-text h2{
+.home-text  h2{
     font-size: 1.1rem;
     font-weight: 400;
 }
-.home-text p{
+.home-text  p{
     font-size: var(--p-font);
     font-weight: 400;
     margin: 0.7rem 0 1rem;
@@ -174,7 +177,7 @@ main[role="main-wrapper"] div.text-contents p{text-align: center;; padding: 0 6%
 }
 .social a:hover{
     color: var(--hover);
-}
+}/*  */
 .btn{
     display: inline-block;
     background: var(--main-color);
@@ -213,9 +216,20 @@ main[role="main-wrapper"] div.text-contents p{text-align: center;; padding: 0 6%
 .qualification{
     clear: left;
 }
+
+.about .my_introduction{
+    text-align: center;
+}
+
+p .exp{
+    font-size: var(--p-font);
+    font-weight: 400;
+    margin: 0.7rem 0 1rem;
+    text-align: left;
+}
+
 /* Qualification */
 .qualification_container{
-    
     /* row-gap: 2rem; */
     column-gap: 2rem;
     grid-template-columns: repeat(auto-fit, minmax(280px, auto));
