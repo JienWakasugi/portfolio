@@ -37,7 +37,7 @@
   */
   
   section .container{
-    margin: 50px;
+    margin: 20px;
   }
   /*  
   section h1{
@@ -92,7 +92,8 @@
     position: relative;
     transform: translateY(150px);
     opacity: 0;
-    transition: all 2s ease;
+    transition: all 1s ease-out;
+    /* transition: all 2s ease; */
   }
   
   .reveal.active{

@@ -114,7 +114,7 @@ header.shadow{
 .home{
     position: relative;
     width: 100%;
-    min-height: 100vh;
+    min-height: 100vh; 
     display: grid; 
     grid-template-columns: 0.2fr 1fr 1fr;
     align-items: center;
@@ -471,6 +471,7 @@ p .exp{
 
 
 .footer{
+    height: 50vh;
     display: grid;
     place-items: center;
     padding: 50px;
@@ -602,7 +603,9 @@ p .exp{
         padding-left: 1.4rem;
     }
     .home-img{
+        padding-left: 1rem;
         order: initial;
+        width: 70%;
     }
     .about-container{
         grid-template-columns: 1fr;
@@ -627,7 +630,9 @@ p .exp{
     :root{
         --big-font:1.7rem;
         --medium-font:1.1rem;
+        --p-font:0.8rem; 
     }
+   
     .home-text span{
         font-size: 1rem;
     }
