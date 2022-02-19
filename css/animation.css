@@ -1,0 +1,209 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700');
+ /* html, body {  
+	 height: 100%;
+}
+ body {
+	 display: flex;
+	 justify-content: center;
+	 align-items: center;
+	 flex-direction: column;
+}
+*/
+.animation{
+	height: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+ .left {
+	min-width: 60px;
+	flex: 1 0 auto;
+	padding: 10px;
+	
+}
+ .right {
+	border-left: 2px solid #282627;
+	min-width: 50px; 
+	flex: 1 0 auto;
+	padding: 10px;
+	 
+}
+ .container_animation {
+	  display: flex;
+}
+
+ .border {
+	 display: flex;
+	 border: 4px solid #282627;
+}
+ .stripes {
+	 background-image: repeating-linear-gradient(45deg, #282627, #282627 4px, #fff 4px, #fff 12px);
+	animation: spin 4s linear infinite;
+}
+ .dots {
+	 background-image: -webkit-repeating-radial-gradient(circle, rgb(0, 0, 0), black 3px, transparent 3px, transparent 100%);
+	 background-size: 13px 16px;
+	 /* background-size: 20px 20px; */
+	 animation: slide 4s linear infinite;
+
+}
+ .zigzag {
+	 background: linear-gradient(135deg, #fff 32%, transparent 32%) -15px 0, linear-gradient(225deg, #fff 32%, transparent 32%) -15px 0, linear-gradient(315deg, #fff 32%, transparent 32%), linear-gradient(45deg, #fff 32%, transparent 32%);
+	 background-size: 30px 30px;
+	 background-color: #282627;
+	 background-repeat: repeat;
+	 min-width: 10px;
+	  animation: slide-up 4s infinite linear, shrink 1.7s infinite ease-out; 
+}
+ .lo {
+	 display: flex;
+	 justify-content: center;
+}
+ .lo > h1 {
+	 font-family: 'Open Sans', sans-serif;
+	 font-weight: 700;
+	 padding: .1rem;
+}
+ .tion {
+	 display: flex;
+	 justify-content: center;
+}
+ .tion > h1 {
+	 font-family: 'Open Sans', sans-serif;
+	 font-weight: 700;
+}
+ .anima {
+	 display: flex;
+	 justify-content: center;
+	 min-width: 120px;
+}
+ .anima > h1 {
+	 font-family: 'Open Sans', sans-serif;
+	 font-weight: 700;
+}
+ .number {
+	 display: flex;
+	 justify-content: center;
+	 margin-left: 16px;
+	 width: 95px;
+	 height: 95px;
+	 background-color: black;
+	 animation: rotate 1s infinite ease-in-out;
+}
+ .label {
+	 font-family: 'Open Sans', sans-serif;
+	 font-weight: 700;
+	 color: #fff;
+	 z-index: 10;
+	 position: relative;
+	 left: -56px;
+	 animation: size 1s infinite ease-in-out;
+}
+ .one {
+	 position: relative;
+	 border-radius: 1rem 1rem 0 1rem;
+	 left: -15px;
+}
+ .two {
+	 position: relative;
+	 top: -4px;
+	 left: 15px;
+}
+ .three {
+	 position: relative;
+	 top: -8px;
+}
+ .four {
+	 position: relative;
+	 top: -12px;
+}
+ .grow {
+	 width: 150px;
+}
+ @keyframes spin {
+	 from {
+		 background-position: 0 0;
+	}
+	 to {
+		  background-position: 0 220px; 
+	}
+}
+ @keyframes slide {
+	 from {
+		 background-position-x: 0;
+	}
+	 to {
+		 background-position-x: -200px;
+	}
+}
+ @keyframes slide-up {
+	 0% {
+		 background-position-y: 0;
+	}
+	 100% {
+		 background-position-y: -300px;
+	}
+}
+ @keyframes rotate {
+	 0% {
+		 transform: rotate(0deg);
+	}
+	 35% {
+		 transform: rotate(45deg);
+	}
+	 50% {
+		 transform: rotate(45deg);
+	}
+	 85% {
+		 transform: rotate(90deg);
+	}
+	 100% {
+		 transform: rotate(90deg);
+	}
+}
+ @keyframes size {
+	 0% {
+		 transform: scale(1, 1);
+	}
+	 35% {
+		 transform: scale(1.4, 1.4);
+	}
+	 50% {
+		 transform: scale(1.4, 1.4);
+	}
+	 85% {
+		 transform: scale(1, 1);
+	}
+	 100% {
+		 transform: scale(1, 1);
+	}
+}
+ @keyframes shrink {
+	 0% {
+		 width: 158px;
+	}
+	 50% {
+		 width: 0px;
+	}
+	 100% {
+		 width: 158px;
+	}
+}
+
+@media (max-width:375px){
+    .animation{
+		 height: 20%;
+		width: 20%;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		flex-direction: column;
+	}
+
+	.one {
+		position: relative;
+		border-radius: 1rem 1rem 0 1rem;
+		left: 50px;
+   }
+}

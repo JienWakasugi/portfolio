@@ -13,10 +13,13 @@
     <link rel="stylesheet" href="css/portfolio_2.css">
     <link rel="stylesheet" href="css/filter_2.css">
     <link rel="stylesheet" href="css/reveal_element.css">
+    <link rel="stylesheet" href="css/animation.css">
     <!--Box Icons-->
     <link rel="stylesheet"
      href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+     <link href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" rel="stylesheet">
     <body>
+
         <header>
             <a href="#" class="logo">Jien Wakasugi</a>
             <div  id="menu-icon">
@@ -26,24 +29,27 @@
        
             <ul class="navbar">
                 <li><a href="#home">Home</a></li>
-                <li><a href="#about">About</a></li>
                 <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#about">About</a></li>
                 <li><a href="#qualification">Qualification</a></li>
                 <!-- <li><a href="#contact">Contact</a></li> -->
                 <li><div class="bx bx-moon" id="darkmode"></div></li>
             </ul>
         </header>
-        <!--Home-->
-        <section class="home" id="home">
-            <!-- 
-            <div class="social"> 
+
+<!--Home-->
+<section class="home" id="home">
+
+            <!--  
+            
+                 <div class="social"> 
                 <a href="#"><i class='bx bxl-github'></i></a>
             </div>
             
              <div class="home-img">
                 <img src="img/portlate.jpg" alt="">
             </div>
-             -->
+            -->
             <div class="home-text">
                 <div class="introduction">
                     <span>Hello, I'm</span>
@@ -51,86 +57,91 @@
                     <h1 class="typing">hi </h1>
                 </div>
             </div>
-        
+<!--  -->
             <div class="scroll-down">
-                <a href="#about"></a>
-                <i class='bx bx-mouse' ></i>
-                <span>Scroll Down</span>
-                <i class='bx bx-down-arrow-alt' ></i>
+                <a href="#about">
+                    <i class='bx bx-mouse' ></i>
+                    <span>Scroll Down</span>
+                    <i class='bx bx-down-arrow-alt' ></i>
+                </a>    
             </div>
-        </section>
+</section>
+ 
 
-        <!-- About -->
-        <section class="about" id="about">
-            <div class="about-contents">
-                <div class="heading">
-                    <h2>About</h2>
-                    <span>Introduction</span>
-                </div>
-                <div class="about-img">
-                    <img src="img/portlate.jpg" alt="">
-                </div>
-            <div class="my_introduction">
-                <p class="about-text">UIデザイナーとしてtoB向けの製品開発に取り組んでいます。<br/>今後はUXに関わる仕事に取り組んでいきたいと考えています。</p>
+
+<!-- Portfolio -->
+<section class="portfolio" id="portfolio">
+            <div class="scroll-container"> 
+               <!-- <div class="scroll-element js-scroll fade-in-bottom"> -->
+                <div class="scroll-element">
+                   <div class="heading">
+                       <h2>My recent works</h2>
+                       <span>Portofolio</span>
+                   </div>
+                           <div class="portfolio_container">
+       
+                               <ul class="filter-menu" id="filter-btns">
+                                   <li class="filter current" data-target ="all">All</li>
+                                   <li class="filter" data-target ="ui">UI</li>
+                                   <li class="filter" data-target ="ux">UX</li>
+                                   <li class="filter" data-target ="Illustration">Illustration</li>
+                               </ul>
+       
+                               <ul class="filter-item">
+       
+                                   <li data-item="ui"> 
+                                       <a href="kitchenIoT-details.html"><img src="img/p1.png" data-item="ux" alt="" class="portfolio_img"></a> 
+                                   </li>
+                                   
+                                   <li data-item="ui">
+                                       <a href="#"><img src="img/p2.png" data-item="ux" alt="" class="portfolio_img"></a>
+                                   </li>
+       
+                                   <li data-item="ux">
+                                       <a href="#"><img src="img/p3.png" data-item="ui" alt="" class="portfolio_img"></a>
+                                   </li>
+       
+                                   <li data-item="ui">
+                                       <a href="#"><img src="img/p4.png" data-item="ui" alt="" class="portfolio_img"></a>
+                                   </li>
+       
+                                   <li data-item="ui">
+                                       <a href="#"><img src="img/p5.png" data-item="Illusttration" alt="" class="portfolio_img"></a>
+                                   </li>
+       
+                                   <li data-item="Illustration">
+                                           <a href="#"><img src="img/p6.png" data-item="Illusttration" alt="" class="portfolio_img"></a>     
+                                   </li>
+                                 
+                               </ul>
+                           
+               
+                           </div>     
+               </div>
+           </div> 
+                 
+</section>
+        
+<!-- About -->
+<section class="about" id="about">
+    <div class="about-contents">
+        <div class="heading">
+            <h2>About</h2>
+            <span>Introduction</span>
+        </div>
+            <div class="about-img">
+                <img src="img/portrait.jpg" alt="">
             </div>
-            </div>
-            
-            
-        </section>
-
-        <section class="portfolio" id="portfolio">
-             <div class="scroll-container"> 
-                <div class="scroll-element js-scroll fade-in-bottom">
-                    <div class="heading">
-                        <h2>My recent works</h2>
-                        <span>Portofolio</span>
-                    </div>
-                            <div class="portfolio_container">
-        
-                                <ul class="filter-menu" id="filter-btns">
-                                    <li class="filter current" data-target ="all">All</li>
-                                    <li class="filter" data-target ="ui">UI</li>
-                                    <li class="filter" data-target ="ux">UX</li>
-                                    <li class="filter" data-target ="Illustration">Illustration</li>
-                                </ul>
-        
-                                <ul class="filter-item">
-        
-                                    <li data-item="ui"> 
-                                        <a href="kitchenIoT-details.html"><img src="img/p1.png" data-item="ux" alt="" class="portfolio_img"></a> 
-                                    </li>
-                                    
-                                    <li data-item="ui">
-                                        <a href="#"><img src="img/p2.png" data-item="ux" alt="" class="portfolio_img"></a>
-                                    </li>
-        
-                                    <li data-item="ux">
-                                        <a href="#"><img src="img/p3.png" data-item="ui" alt="" class="portfolio_img"></a>
-                                    </li>
-        
-                                    <li data-item="ui">
-                                        <a href="#"><img src="img/p4.png" data-item="ui" alt="" class="portfolio_img"></a>
-                                    </li>
-        
-                                    <li data-item="ui">
-                                        <a href="#"><img src="img/p5.png" data-item="Illusttration" alt="" class="portfolio_img"></a>
-                                    </li>
-        
-                                    <li data-item="Illustration">
-                                            <a href="#"><img src="img/p6.png" data-item="Illusttration" alt="" class="portfolio_img"></a>     
-                                    </li>
-                                  
-                                </ul>
-                            
-                
-                            </div>     
+                <div class="my_introduction">
+                    <p class="about-text">UIデザイナーとしてtoB向けの製品開発に取り組んでいます。<br/>今後はUXに関わる仕事に取り組んでいきたいと考えています。</p> 
+                    
                 </div>
-            </div> 
-                  
-        </section>
-
-               <!--Qualification-->
-               <section class="qualification" id="qualification">
+    </div>
+    
+</section>
+      
+<!--Qualification-->
+<section class="qualification" id="qualification">
 
                 <div class="container reveal">
                     <div class="heading">
@@ -287,9 +298,28 @@
                     </div>
                 </div>
 -->
-            </section>
+</section>
 
-               <!-- スクロースさせたいとき -->
+        <div class="footer">
+            <h2>Jien</h2>
+            <div class="footer-social">
+                <a href="#"><i class='bx bxl-twitter'></i></a>
+                <a href="#"><i class='bx bxl-facebook-square' ></i></a>
+                <a href="#"><i class='bx bxl-instagram-alt' ></i></a>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>&#169 Jien Wakasugi All Right Reserved.</p>
+        </div>
+        <!--Link to JS-->
+        <script src="js/main.js"></script>
+        <script src="js/typing.js"></script> 
+        <script src="js/scroll.js"></script>
+        <script src="js/filter_2.js"></script>
+        <script src="js/reveal_element.js"></script>
+    </body>
+</html>
+ <!-- スクロースさせたいとき -->
                 <!-- <div class="scroll-container"> 
                     <div class="scroll-element js-scroll fade-in-bottom">
                         
@@ -328,7 +358,7 @@
                         </li>
                        
                     </ul>
-                     -->
+                     
     
                 </div>  
                             
@@ -336,6 +366,7 @@
            </div> 
                  
        </section>
+       -->
 
          <!--Qualification-->
          <!--  
@@ -515,30 +546,6 @@
         </section>
         -->
         <!-- Skills -->
-        
-      
-      
-
-        <div class="footer">
-            <h2>Jien</h2>
-            <div class="footer-social">
-                <a href="#"><i class='bx bxl-twitter'></i></a>
-                <a href="#"><i class='bx bxl-facebook-square' ></i></a>
-                <a href="#"><i class='bx bxl-instagram-alt' ></i></a>
-            </div>
-        </div>
-        <div class="copyright">
-            <p>&#169 Jien Wakasugi All Right Reserved.</p>
-        </div>
-        <!--Link to JS-->
-        <script src="js/main.js"></script>
-        <script src="js/typing.js"></script> 
-        <script src="js/scroll.js"></script>
-        <script src="js/filter_2.js"></script>
-        <script src="js/reveal_element.js"></script>
-    </body>
-</html>
-
   <!-- 
             <div class="heading">
                 <h2>My recent works</h2>

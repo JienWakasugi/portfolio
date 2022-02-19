@@ -114,26 +114,38 @@ header.shadow{
 .home{
     position: relative;
     width: 100%;
-     /* min-height: 100vh;  */
+     min-height: 10vh;
     display: block;
-    /* display: grid;  */
-    /* grid-template-columns: 0.2fr 1fr 1fr; */
-    /* align-items: center; */
-    /* gap: 1rem; */
+    /*display: grid; 
+    grid-template-columns: 0.2fr 1fr 1fr;  
+    align-items: center; 
+    gap: 1rem;*/
+    /*background-color: #fff825; */
+    background-color:var(--bg-color);
+    /* opacity:.5; */
+    background-image:  linear-gradient(30deg, #c7c7c7 12%, transparent 12.5%, transparent 87%, #c7c7c7 87.5%, #c7c7c7), linear-gradient(150deg, #c7c7c7 12%, transparent 12.5%, transparent 87%, #c7c7c7 87.5%, #c7c7c7), linear-gradient(30deg, #c7c7c7 12%, transparent 12.5%, transparent 87%, #c7c7c7 87.5%, #c7c7c7), linear-gradient(150deg, #c7c7c7 12%, transparent 12.5%, transparent 87%, #c7c7c7 87.5%, #c7c7c7), linear-gradient(60deg, #c7c7c777 25%, transparent 25.5%, transparent 75%, #c7c7c777 75%, #c7c7c777), linear-gradient(60deg, #c7c7c777 25%, transparent 25.5%, transparent 75%, #c7c7c777 75%, #c7c7c777);
+     background-size: 80px 140px; 
+    background-position: 0 0, 0 0, 40px 70px, 40px 70px, 0 0, 40px 70px;
+    
 }
-
+ 
 .home-img{
     order: 3; 
 }
 .home-img img{
-
     width: 100%; 
     border-radius: 0.5rem;
-    
 }
+
 .home-text{
 position: relative;
-padding-bottom: 4rem;
+padding: auto;
+/* padding-bottom: 4rem; */
+text-shadow: /*1px 1px 2px var(--bg-color)*/3px 3px var(--bg-color);
+opacity: .8;
+}
+.introduction{
+    padding-top: 2rem;
 }
 
 
@@ -198,7 +210,8 @@ main[role="main-wrapper"] div.text-contents p{text-align: center;; padding: 0 6%
 }
 .scroll-down{
     position: absolute;
-    bottom: 4rem;
+    padding-top: 1rem;
+    /* bottom: 4rem; */
     /* left: 18.5%; */
 }
 .scroll-down a{
@@ -237,18 +250,38 @@ main[role="main-wrapper"] div.text-contents p{text-align: center;; padding: 0 6%
     margin-top:2rem; 
 }*/
 .about-img{
-    margin-top: 1.5rem;
+    /* /
+    margin-top: .5rem;
     margin-bottom:1.5rem ;
     object-fit: contain;
-    width: 50%;
+    width: 100%;
     margin-left: auto;
     margin-right: auto;
+    display: block;
     text-align: center;
+    */
+    max-width: 76%; /* ここに説明と画像が載るスペースを掲載 */
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    overflow: hidden;
+    
 }
 .about-img img{
-    width: 100%;
+    object-fit: contain;
+     cursor: pointer;
+    position: /*absoluterelative*/relative;
+    text-align: center;
+    opacity: 0.9;
+    max-width:100%; /* 横幅は100%で固定 */
+    /*padding-top: 1rem;*/
+    margin-top: .4rem;
+    margin-bottom: 1.2rem;
+    /* width: 30%; */
+    /* height:auto; */
     /* border-radius: 100% 100% 100% 100%; */
     border-radius: 50% 20% / 10% 40%; 
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 5px 1px -2px, rgba(0, 0, 0, 0.3) 0px 3px 6px -3px;
     /* border-radius: 0.5rem; */
 }
 
@@ -499,16 +532,17 @@ p .exp{
 
 
 .footer{
-    height: 50vh;
+    height: 10vh;
     display: grid;
     place-items: center;
-    padding: 50px;
+    padding: 10px;
     background: var(--main-color);
     color: #fff;
 }
 .footer h2{
     font-size: var(--medium-font);
-    margin-bottom: 1.4rem;
+    margin-bottom: .5rem;
+    /* margin-bottom: 1.4rem; */
 }
 .footer-social a{
     color: #fff;
@@ -547,13 +581,15 @@ p .exp{
 
 
 /*Responsive*/
+/*  
 @media (max-width:1920px) {
     .about-img{
         display: flex;
         justify-content: center;
-        width: 30%;
+        width: 50%;
     }
 }
+*/
 
 @media (max-width:991px){
     header{
@@ -568,6 +604,13 @@ p .exp{
         --big-font:2.7rem;
         --medium-font:1.4rem;
     }
+/* 
+    .about-img{
+        display: flex;
+        justify-content: center;
+        width: 50%;
+    }
+ */
 }
 
 @media (max-width:768px){
@@ -668,7 +711,7 @@ p .exp{
         --medium-font:1.1rem;
         --p-font:0.8rem; 
     }
-   
+  
     .home-text span{
         font-size: 1rem;
     }
@@ -683,7 +726,7 @@ p .exp{
         grid-template-columns: repeat(auto-fit, minmax(200px, auto));
     }
     .portfolio_container{
-        height:1000em; 
+        height:100em; 
         /* height: 40em; */
         /* padding-bottom: 10rem; */
    }
