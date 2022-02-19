@@ -53,7 +53,12 @@
   section .cards{
     display: flex; 
   }
-  
+  .about .cards{
+    /* padding-left: 100px; */
+    display: block;
+    padding-left: 10%;
+    padding-right: 10%;
+  }
   section .cards .text-card{
     /*  background: #2696E9;  
     margin: 20px; 
@@ -63,7 +68,7 @@
     background-color:var(--bg-color) ;
     border-radius: .5rem;
     padding: 1.5rem;
-    margin: 10px;
+    margin: 20px;
     margin-top: 2rem; 
     margin-bottom: 1rem;  
     /* text-align: center;  */
