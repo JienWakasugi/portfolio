@@ -19,10 +19,10 @@
     --bg-color: #fff;
     --text-color: #0f0c27;
     /* --hover: hsl(260, 100%, 51%); */
-    --hover:hsl(218, 52%, 44%);
+    --hover:rgba(54, 97, 171, 0.877);
 
     --big-font:3.2rem;
-    --medium-font:1.8rem;
+    --medium-font:1.2rem;
     --p-font:0.941rem; 
 }
 section{
@@ -39,6 +39,7 @@ body.active{
     --text-color: #fff;
     --bg-color:  #0f0c27;
     --main-color: rgb(248, 187, 32);
+    --hover:rgb(248, 187, 3,0.877);
 }
 body{
     background: var(--bg-color);
@@ -353,7 +354,7 @@ p .exp{
     /* padding-right: 50%; */
 }
 .qualification_title-icon{
-    font-size: 1.5rem;
+    font-size: 1.2rem;
     margin-right: 1rem;
 }
 .qualification_box{
@@ -376,6 +377,12 @@ p .exp{
 }
 
 
+.qualification_box a{
+    padding-right: .8rem;
+}
+
+
+
 /*Contact*/
 .contact_container{
     row-gap: 2.5rem;
@@ -385,7 +392,7 @@ p .exp{
     /* grid-template-columns: repeat(auto-fit, minmax(220px,1fr)); */
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(280px, auto));
-    gap:1rem;
+    gap:.8rem;
     
 }
 
@@ -640,7 +647,7 @@ p .exp{
 @media (max-width:768px){
     :root{
         --big-font:2.4rem;
-        --medium-font:1.2rem;
+        --medium-font:1.1rem;
     }
     header{
         padding: 11px 4%;
