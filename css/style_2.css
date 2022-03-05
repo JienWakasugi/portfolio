@@ -13,10 +13,13 @@
     font-family: 'Noto Sans JP', sans-serif;
 }
 :root{
-    --main-color: #4a00e0;
+    /* --main-color: #4a00e0; */
+    /* --main-color: rgb(0, 49, 112); */
+    --main-color: rgb(54, 96, 170);
     --bg-color: #fff;
     --text-color: #0f0c27;
-    --hover: hsl(260, 100%, 51%);
+    /* --hover: hsl(260, 100%, 51%); */
+    --hover:hsl(218, 52%, 44%);
 
     --big-font:3.2rem;
     --medium-font:1.8rem;
@@ -25,9 +28,17 @@
 section{
     padding: 50px 10%;
 }
+/* 
 body.active{
     --text-color: #fff;
     --bg-color:  #0f0c27;
+    --main-color: rgb(248, 187, 32);
+}
+ */
+ .darkmode{
+    --text-color: #fff;
+    --bg-color:  #0f0c27;
+    --main-color: rgb(248, 187, 32);
 }
 body{
     background: var(--bg-color);
@@ -107,10 +118,16 @@ header.shadow{
     letter-spacing: 2.5px;
   }*/
 
+#darkmode_switch{
+    font-size: 22px;
+    cursor: pointer;
+}
+/* 
 #darkmode{
     font-size: 22px;
     cursor: pointer;
 }
+*/
 .home{
     position: relative;
     width: 100%;
@@ -262,7 +279,8 @@ main[role="main-wrapper"] div.text-contents p{text-align: center;; padding: 0 6%
     display: block;
     text-align: center;
     */
-    max-width: 76%; /* ここに説明と画像が載るスペースを掲載 */
+    /* display: flex; */
+    max-width: 52%; /* ここに説明と画像が載るスペースを掲載 */
     margin-left: auto;
     margin-right: auto;
     position: relative;
@@ -271,24 +289,27 @@ main[role="main-wrapper"] div.text-contents p{text-align: center;; padding: 0 6%
 }
 .about-img img{
     object-fit: contain;
-     cursor: pointer;
+     /* cursor: pointer; */
     position: /*absoluterelative*/relative;
     text-align: center;
     opacity: 0.9;
     max-width:100%; /* 横幅は100%で固定 */
-    /*padding-top: 1rem;*/
+    
     margin-top: .4rem;
     margin-bottom: 1.2rem;
+    border-radius: 50% 20% / 10% 40%; 
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 5px 1px -2px, rgba(0, 0, 0, 0.3) 0px 3px 6px -3px;
+    /*padding-top: 1rem;*/
     /* width: 30%; */
     /* height:auto; */
     /* border-radius: 100% 100% 100% 100%; */
-    border-radius: 50% 20% / 10% 40%; 
-    box-shadow: rgba(50, 50, 93, 0.25) 0px 5px 1px -2px, rgba(0, 0, 0, 0.3) 0px 3px 6px -3px;
+    
     /* border-radius: 0.5rem; */
 }
 
 .about-text p{
     font-size: var(--p-font);
+   
     font-weight: 400;
     text-align: justify;
 }
@@ -323,7 +344,7 @@ p .exp{
 
 .qualification_title{
     font-size: var(--medium-font);
-    color: var(--main-color);
+    color: var( --main-color);
     margin-top: .5rem;
     margin-bottom: .1rem;
     display: flex;
@@ -666,10 +687,10 @@ p .exp{
         display: block;
         background: var(--bg-color);
     }
-    #darkmode{
+    #darkmode_switch{
         position:absolute;
         top: 1.4rem;
-        right: 2rem;
+        right: 1.2rem;
 
     }
 

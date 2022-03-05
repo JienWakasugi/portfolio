@@ -41,8 +41,10 @@
 }
 
 .filter-menu li.current{
-    border-color: var(--main-color);;
+    /* border-color: var(--main-color);; */
+    border-color: var(--main-color);
     color: var(--main-color);
+    font-weight: 600;
 }
 /*
 @media (min-width:340px){

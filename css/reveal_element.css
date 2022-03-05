@@ -56,8 +56,9 @@
   .about .cards{
     /* padding-left: 100px; */
     display: block;
-    padding-left: 10%;
-    padding-right: 10%;
+    /* display: flex; */
+    padding-left: 5%;
+    padding-right: 5%;
   }
   section .cards .text-card{
     /*  background: #2696E9;  
@@ -87,6 +88,7 @@
     section h1{
       font-size: 40px;
     }
+    
   
     section .cards{
       flex-direction: column;
