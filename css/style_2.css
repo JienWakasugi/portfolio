@@ -22,8 +22,12 @@
     --hover:rgba(54, 97, 171, 0.877);
 
     --big-font:3.2rem;
-    --medium-font:1.2rem;
+    --medium-font:1.8rem;
+    /* --medium-font:1.8rem; */
     --p-font:0.941rem; 
+
+    /* --medium-font:1.8rem; */
+    
 }
 section{
     padding: 50px 10%;
@@ -354,7 +358,8 @@ p .exp{
     /* padding-right: 50%; */
 }
 .qualification_title-icon{
-    font-size: 1.2rem;
+    /* font-size: 1.2rem; */
+    font-size: 1.5rem;
     margin-right: 1rem;
 }
 .qualification_box{
@@ -627,6 +632,13 @@ p .exp{
 }
 */
 
+@media (max-width:1920px) {
+    :root{
+        --big-font:2.7rem;
+        --medium-font:1.6rem;
+    }
+}
+
 @media (max-width:991px){
     header{
         padding: 18px 4%;
@@ -634,12 +646,20 @@ p .exp{
     section{
         padding: 50px 4%;
     }
+    .portfolio_container{
+        height: 60vh;
+   }
 }
+
+
 @media (max-width:881px){
     :root{
         --big-font:2.7rem;
-        --medium-font:1.4rem;
+        /* --medium-font:1.4rem; */
+        --medium-font:1.2rem;
     }
+
+   
 /* 
     .about-img{
         display: flex;
@@ -648,6 +668,7 @@ p .exp{
     }
  */
 }
+
 
 @media (max-width:768px){
     :root{
@@ -740,8 +761,16 @@ p .exp{
         display: flex;
         justify-content: center;
     }
+    /*  
+    .portfolio_container{
+        min-height:100vh; 
+   }
+   */
 }
-@media (max-width:340px){
+
+
+
+@media (max-width:412px){
     :root{
         --big-font:1.7rem;
         --medium-font:1.1rem;
@@ -761,9 +790,9 @@ p .exp{
     .portfolio-content{
         grid-template-columns: repeat(auto-fit, minmax(200px, auto));
     }
+    /*  
     .portfolio_container{
-        height:100em; 
-        /* height: 40em; */
-        /* padding-bottom: 10rem; */
+        min-height:50vh; 
    }
+   */
  }
