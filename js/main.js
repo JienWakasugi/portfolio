@@ -19,6 +19,7 @@ const darkModeSwitch = document.querySelector('#darkmode_switch');
 
 const enableDarkMode = () => {
     // 1. Add the class to the body
+    darkModeSwitch.classList.replace('bx-sun','bx-moon');
     document.body.classList.add('darkmode');
     // 2. Update darkMode in localStorage
     localStorage.setItem('darkmode', 'enabled');
@@ -26,6 +27,7 @@ const enableDarkMode = () => {
   
   const disableDarkMode = () => {
     // 1. Remove the class from the body
+    darkModeSwitch.classList.replace('bx-moon','bx-sun');
     document.body.classList.remove('darkmode');
     // 2. Update darkMode in localStorage 
     localStorage.setItem('darkmode', null);
