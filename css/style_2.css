@@ -22,8 +22,7 @@
     --hover:rgba(54, 97, 171, 0.877);
 
     --big-font:3.2rem;
-    --medium-font:1.2rem;
-    /* --medium-font:1.8rem; */
+    --medium-font:1.8rem;
     /* --medium-font:1.8rem; */
     --p-font:0.941rem; 
 
@@ -313,9 +312,8 @@ main[role="main-wrapper"] div.text-contents p{text-align: center;; padding: 0 6%
     /* border-radius: 0.5rem; */
 }
 
-.about-text p{
+.about-text {
     font-size: var(--p-font);
-   
     font-weight: 400;
     text-align: justify;
 }
@@ -368,8 +366,8 @@ p .exp{
     padding-bottom: .2rem;
     border-bottom:1px solid var(--main-color) ;
 }
-.qualification_area{
-    font-size: var(--text-color);
+.qualification_area {
+    font-size: var(--p-font);
     margin-top: .1rem;
     margin-bottom: .1rem;
     font-weight: var(--big-font);
@@ -379,9 +377,21 @@ p .exp{
     color: var(--text-color);
 }
 .qualification-work{
-    display:block;
+    font-size: var(--p-font);
+    color: var(--text-color); 
 }
 
+
+.qualification_work a{
+    font-size: var(--p-font);
+    color: var(--text-color); 
+}
+.qualification-work{
+    display:block;
+}
+.hello{
+    font-size: 1px;
+}
 
 .qualification_box a{
     padding-right: .8rem;
@@ -774,7 +784,7 @@ p .exp{
 @media (max-width:412px){
     :root{
         --big-font:1.7rem;
-        --medium-font:1.1rem;
+        --medium-font:.9rem;
         --p-font:0.8rem; 
     }
   
