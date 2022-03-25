@@ -59,8 +59,8 @@
     /* padding-left: 100px; */
     display: block;
     /* display: flex; */
-    padding-left: auto;
-    padding-right: auto;
+    padding-left: .5rem;
+    padding-right: .5rems;
   }
   section .cards .text-card{
     /*  background: #2696E9;  
