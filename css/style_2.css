@@ -171,21 +171,29 @@ opacity: .8;
 }
 
 
-.home-text  span{
+/* .home-text */  span{
     font-size: var(--medium-font);
-    font-weight: 500;
+    font-weight: 400;
 }
-.home-text  h1{
+/* .home-text*/  h1{ 
     font-size: var(--big-font);
     margin-left: -2px;
 }
-.home-text  h2{
+li{
+    font-size: var(--p-font);
+    font-weight: 400;
+}
+h4{
+    font-size: var(--medium-font);
+    font-weight: 500;
+}
+/*.home-text*/  h2{
     font-size: 1.1rem;
     font-weight: 400;
 }
-.home-text  p{
+/* .home-text*/  p{ 
     font-size: var(--p-font);
-    font-weight: 400;
+    font-weight: 300;
     /* margin: 0.7rem 0 1rem; */
 }
 
@@ -372,7 +380,7 @@ p .exp{
     margin-bottom: .1rem;
     font-weight: var(--big-font);
 }
-.qualification_icon, .qualification_work{
+.qualification_icon/*, .qualification_work*/{
     font-size: var(--p-font);
     color: var(--text-color);
 }
