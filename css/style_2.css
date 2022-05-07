@@ -172,7 +172,7 @@ opacity: .8;
 
 
 /* .home-text */  span{
-    font-size: var(--medium-font);
+    font-size: var(--p-font);
     font-weight: 400;
 }
 /* .home-text*/  h1{ 
@@ -184,7 +184,7 @@ li{
     font-weight: 400;
 }
 h4{
-    font-size: var(--medium-font);
+    font-size: var(--p-font);
     font-weight: 500;
 }
 /*.home-text*/  h2{
@@ -196,6 +196,12 @@ h4{
     font-weight: 300;
     /* margin: 0.7rem 0 1rem; */
 }
+
+a:hover {
+    color:var( --hover);
+    }
+
+
 
 main[role="main-wrapper"] {
     padding-top: 56px;
