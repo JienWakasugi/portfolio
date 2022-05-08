@@ -22,12 +22,10 @@
     --hover:rgba(54, 97, 171, 0.877);
 
     --big-font:3.2rem;
-    --medium-font:1.8rem;
+    --medium-font:1.2rem;
+    --regular-font:.98rem;
     /* --medium-font:1.8rem; */
-    --p-font:0.941rem; 
-
-    /* --medium-font:1.8rem; */
-    
+    --p-font:0.941rem;     
 }
 section{
     padding: 50px 10%;
@@ -183,18 +181,23 @@ li{
     font-size: var(--p-font);
     font-weight: 400;
 }
-h4{
-    font-size: var(--p-font);
-    font-weight: 500;
-}
-/*.home-text*/  h2{
-    font-size: 1.1rem;
+
+h2{
+    font-size: var(--regular-font);
     font-weight: 400;
 }
-/* .home-text*/  p{ 
+h3{
+    font-size: var(--regular-font);
+    font-weight: 600;
+}
+h4{
+    font-size: var(--regular-font);
+    font-weight: 500;
+}
+
+p{ 
     font-size: var(--p-font);
-    font-weight: 300;
-    /* margin: 0.7rem 0 1rem; */
+    font-weight: 400;
 }
 
 a:hover {
