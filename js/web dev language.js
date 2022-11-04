@@ -64,7 +64,7 @@ let languages = {
     
       about_research:"About usarbility study",
       issue1:"Information retrieval from the Internet takes time.:",
-      explain1:"There is so much information that it is difficult to find the information I want.。",
+      explain1:"There is so much information that it is difficult to find the information I want.",
       issue2:"Where should beginners start to learn web development?:",
       explain2:"Students don't know what to start learning in Web development.",
       issue3:"No one around me knows much about web development:",
@@ -88,7 +88,7 @@ let languages = {
       mockup1:"Improvement:",
       mockup2:"Changed title from IDE (Integrated Development Environment) to Tools.The font size has been increased and description is changed. ",
       explain_mockups:"About mockups:",
-      character_mockup1:"This is a page of learning sites that introduces online sites to learn about web development.。",
+      character_mockup1:"This is a page of learning sites that introduces online sites to learn about web development.",
       character_mockup2:"This is an inspirational page that shows professionally created websites.",
       character_mockup3:"This page introduces the tools necessary for actual programming",
       
