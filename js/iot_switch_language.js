@@ -4,11 +4,31 @@ let languages = {
          title_cookware:"IoT調理器具 Cal&light, Tre",
          subtitle:"IoT調理器具と調理アプリ",
          role:"ハードウェア　キッチンスケールと調味料瓶の制作, ソフトウェア　Webアプリの開発",
+         projectGoal:"レシピ通りに料理を作ることができない料理初心者をサポートすることです。",
+         targetAudience:"料理を始めたばかりの20代の学生",
+         keyChallenge:"調理器具をIoT化させて調理活動をサポートします。",
          hypothesis:"オンラインレシピで、多種多様な料理を作ることができるようになりましたが料理初心者はレシピ通りにできないという課題があると考えました。",
          hypothesis_next:"その課題に対してオンラインレシピとIoT化した調理器具をつないでそんな料理初心者を支援するプロトタイプを製作しました。",
          task1:"調理の課題である計量や調理手順、時間管理を解決するアイデアを実装",
          task2:"実際に動くハードウェアとソフトウェアのデザインUXデザイン",
          task3:"想定ユーザーの課題抽出とフローを検討",
+
+         concept:"コンセプト",
+         solution:"解決する課題:",
+         goal:"料理初心者の課題である“正確な計量”と“レシピの読み間違え”、“時間管理”を解決します。",
+
+         research_analysis:"調査と分析の結果",
+         calculateFood:"食材の計量:",
+         annoyCalculate:"調味料や材料を正確に計量することが手間",
+         cookingProcess:"レシピの読み間違え:",
+         annoyProcess:"レシピを読み間違えて調理に失敗してしまうこと",
+         timeManagement:"時間管理:",
+         annoyManagement:"タイマーを用意することが手間であったり、時間を守れず調理が失敗すること",
+
+         process:"製作プロセス",
+         flow:"実装までの流れ:",
+         analysis_dev:"システムの流れを描くところからハード・ソフトの設計を行いました。",
+
          aboutCaL:"IoTキッチンスケールCaL(カル)について",
          function1:"入れ忘れ防止:",
          explain1:"加えた材料をスケールがセンシングして、レシピ上に情報を反映します。",
@@ -34,23 +54,42 @@ let languages = {
         explain15:"レシピを見ると使った食材や加えた食材の分量がわかる、また、タイマーの準備をレシピがしてくれます。",
         system16:"仕組み", 
         explain17:"HTML,CSS,Javascriptでレシピをつくり、調理器具とはAjaxで通信します。",
-        concept:"コンセプト",
-        solution:"解決する課題:",
-        goal:"料理初心者の課題である“正確な計量”と“レシピの読み間違え”、“時間管理”を解決します。",
-        process:"製作プロセス",
-        flow:"実装までの流れ:",
-        analysis_dev:"システムの流れを描くところからハード・ソフトの設計を行いました。"
 
+        conculsion_learn:"結論と学び",
+        conculsion_kitchen:"結論",
+        myConculusion:"レシピアプリに現状の分量を表示することや時計機能は支持される一方で、調味料ボックスのLEDが光る機能は使い方が分かりにくく改善が必要だということがわかりました。",
+        whatLearn:"学び",
+        myStudy:"調味料の換算や加えた量の記憶などIoT側が得意なことと人間が得意なことを切り分けてシステムを作ることができました。",
       },
     en: {
          title_cookware:"IoT cookware Cal&light, Tre",
          subtitle:"IoT cookware and cooking app",
          role:"Developing IoT scale and caster, website",
+         projectGoal:"Cooking success for beginners with app.",
+         targetAudience:"Students in their 20s just start to cook",
+         keyChallenge:"Make cookware that is embedded with IoT.",
          hypothesis:"We realized that there is a challenge for novice cookers who cannot follow online recipes.",
          hypothesis_next:"To address this issue, I have created a prototype that supports novice cooking by connecting online recipes and IoT devices.",
          task1:"Develop three prototypes to assist beginners in measuring and showing cooking procedures and managing time.",
          task2:"Design the user experience of the hardware and the software that actually works.",
          task3:"Analyze cooking flow of a user.",
+
+         concept:"Concept",
+         solution:"My design challenge:",
+         goal:"It solves the accurate measurement, misreading recipes, and time management problems of cooking novice.",
+
+         research_analysis:"Research and Analysis Results",
+         calculateFood:"Measuring Ingredients:",
+         annoyCalculate:"Measuring seasoning and ingredients accurately is a hassle.",
+         cookingProcess:"Misreading recipes:",
+         annoyProcess:"Failure to cook due to misreading recipes.",
+         timeManagement:"Fail to cook without a clock.:",
+         annoyManagement:"Having prepared a timer is a hassle, or failing to cook on time.",
+
+         process:"Development",
+         flow:"Implementation:",
+         analysis_dev:"I designed the hardware and software, starting with drawing a flowchart.",
+
          aboutCaL:"About IoT scale CaL",
          function1:"Function to avoid forgetting to add food:",
          explain1:"IoT kitchen scale senses the ingredients added and reflects recipe information.",
@@ -76,12 +115,12 @@ let languages = {
          explain15:"The recipe tells biginners the foods used and how much they just added. And recipe has a timer.",
          system16:"System:", 
          explain17:"Recipes are created with HTML, CSS, and Javascript, and communicate with the cookware via Ajax.",
-         concept:"Concept",
-         solution:"My design challenge:",
-         goal:"It solves the accurate measurement, misreading recipes, and time management problems of cooking novice.",
-         process:"Development",
-         flow:"Implementation:",
-         analysis_dev:"I designed the hardware and software, starting with drawing a flowchart."
+
+         conculsion_learn:"Conclusion and Learn", 
+         conculsion_kitchen:"Conclusion:",
+         myConculusion:"Evaluation supported the recipe application function to display the current ingredient quantity and clock function.",
+         whatLearn:"Learn:",
+         myStudy:"On the other hand, LED light on seasoning box is difficult to understand and needs to be improved."  
       }
 
  

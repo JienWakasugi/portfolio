@@ -9,7 +9,7 @@ preview.forEach(preview => {
             original.classList.add('open');
 
             const originalSrc = preview.getAttribute("data-original");
-            original.src=`./img/${originalSrc}`;/*console.log(originalSrc);*/
+            original.src=`./img/kitchen_IoT/${originalSrc}`;/*console.log(originalSrc);*/
             const altText = preview.alt;
             caption.textContent = altText;
     });
