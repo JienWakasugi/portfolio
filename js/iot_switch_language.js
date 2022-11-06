@@ -55,11 +55,27 @@ let languages = {
         system16:"仕組み", 
         explain17:"HTML,CSS,Javascriptでレシピをつくり、調理器具とはAjaxで通信します。",
 
+        about_usertest:"ユーザービリティテストについて",
+        steps:"手順:",
+        step1:"キッチンスケール上のコップに水を加えてアプリ上に分量を表示させる。",
+        step2:"チェックマークが表示されるまでキッチンスケール上のコップに水を加える。",
+        step3:"タイマー機能を見つけてもらう。",
+        step4:"LEDが光っている調味料瓶を見つけてもらう。",
+
         conculsion_learn:"結論と学び",
         conculsion_kitchen:"結論",
         myConculusion:"レシピアプリに現状の分量を表示することや時計機能は支持される一方で、調味料ボックスのLEDが光る機能は使い方が分かりにくく改善が必要だということがわかりました。",
         whatLearn:"学び",
         myStudy:"調味料の換算や加えた量の記憶などIoT側が得意なことと人間が得意なことを切り分けてシステムを作ることができました。",
+
+        weightDisplay:"分量表示:",
+        weightDisplayDetails:"5人中3人がこの機能を支持しました。",
+        checkDisplay:"チェック機能:",
+        checkDisplayDetails:"5人中4人がこの機能を支持しました。",
+        checkTimer:"タイマー機能:",
+        checkTimerDetails:"5人中3人がこの機能を支持しました。",
+        checkSeasoring:"調味料ボックス:",
+        checkSeasoringDetails:"5人中4人がこの機能を支持しました。",
       },
     en: {
          title_cookware:"IoT cookware Cal&light, Tre",
@@ -116,11 +132,27 @@ let languages = {
          system16:"System:", 
          explain17:"Recipes are created with HTML, CSS, and Javascript, and communicate with the cookware via Ajax.",
 
+         about_usertest:"About usarbility study",
+         steps:"Conduct observations and interviews:",
+         step1:"Add water to the cup on the kitchen scale and displayed in the app.",
+         step2:"Add water to the cup on the kitchen scale until a check mark appears.",
+         step3:"Let the user find the timer function.",
+         step4:"Find a seasoning jar with a shining LED.",
+
          conculsion_learn:"Conclusion and Learn", 
          conculsion_kitchen:"Conclusion:",
          myConculusion:"Evaluation supported the recipe application function to display the current ingredient quantity and clock function.",
          whatLearn:"Learn:",
-         myStudy:"On the other hand, LED light on seasoning box is difficult to understand and needs to be improved."  
+         myStudy:"On the other hand, LED light on seasoning box is difficult to understand and needs to be improved.",  
+
+         weightDisplay:"Measuring weight:",
+         weightDisplayDetails:"Three out of five supported this feature.",
+         checkDisplay:"Checklist:",
+         checkDisplayDetails:"Four out of five supported this feature.",
+         checkTimer:"Timer:",
+         checkTimerDetails:"Three out of five supported this feature.",
+         checkSeasoring:"Seasoning IoT Device:",
+         checkSeasoringDetails:"Four out of five supported this feature.",
       }
 
  
