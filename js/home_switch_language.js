@@ -10,6 +10,10 @@ let languages = {
         introduction7:"アムステルダム応用科学大学 - オランダ",
         introduction8:"デザイン経営工学課程",
         introduction9:"京都工芸繊維大学 - 京都府",
+        titleSoft:"ソフトウェアスキル",
+        titleHard:"ハードウェアスキル",
+        titleLang:"語学",
+        skillLanguages:"日本語(母国語), 英語",
         // title_cookware:"IoT調理器具 Cal&light, Tre"
       },
     en: {
@@ -22,6 +26,10 @@ let languages = {
         introduction7:"Amsterdam University of Applied Science, Dutch",
         introduction8:"Design Maragement and Engineering ",
         introduction9:"Kyoto Institute of Technology, Kyoto",
+        titleSoft:"Software Skills",
+        titleHard:"Hardware Skills",
+        titleLang:"Languages",
+        skillLanguages:"Japanese(native), English",
         // title_cookware:"IoT cookware Cal&light, Tre"
 
   }
