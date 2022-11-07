@@ -39,6 +39,8 @@
   section .container{
     margin: 20px;
   }
+
+ 
   /*  
   section h1{
     font-size: 60px;
@@ -52,6 +54,7 @@
   
   section .cards{
     display: flex; 
+    
   }
   .about .cards{
     /* padding-left: 100px; */

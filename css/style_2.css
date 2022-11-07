@@ -364,7 +364,7 @@ p .exp{
 }
 
 .qualification_title{
-    font-size: var(--medium-font);
+    font-size: var(--p-font);
     color: var( --main-color);
     margin-top: .1rem;
     margin-bottom: .1rem;
@@ -389,6 +389,8 @@ p .exp{
     margin-bottom: .1rem;
     font-weight: var(--big-font);
 }
+
+
 .qualification_icon/*, .qualification_work*/{
     font-size: var(--p-font);
     color: var(--text-color);
