@@ -57,10 +57,12 @@ let languages = {
 
         about_usertest:"ユーザービリティテストについて",
         steps:"手順:",
-        step1:"キッチンスケール上のコップに水を加えてアプリ上に分量を表示させる。",
-        step2:"チェックマークが表示されるまでキッチンスケール上のコップに水を加える。",
-        step3:"タイマー機能を見つけてもらう。",
-        step4:"LEDが光っている調味料瓶を見つけてもらう。",
+        step1:"1.キッチンスケール上のコップに水を加えてアプリ上に分量を表示させる。",
+        step2:"2.チェックマークが表示されるまでキッチンスケール上のコップに水を加える。",
+        step3:"3.タイマー機能を見つけてもらう。",
+        step4:"4.LEDが光っている調味料瓶を見つけてもらう。",
+        stepsUsability:"テスト協力者:",
+        partUsability:"男性2名、女性3名(日本、中国)",
 
         conculsion_learn:"結論と学び",
         conculsion_kitchen:"結論",
@@ -134,10 +136,12 @@ let languages = {
 
          about_usertest:"About usarbility study",
          steps:"Conduct observations and interviews:",
-         step1:"Add water to the cup on the kitchen scale and displayed in the app.",
-         step2:"Add water to the cup on the kitchen scale until a check mark appears.",
-         step3:"Let the user find the timer function.",
-         step4:"Find a seasoning jar with a shining LED.",
+         step1:"1.Add water to the cup on the kitchen scale and displayed in the app.",
+         step2:"2.Add water to the cup on the kitchen scale until a check mark appears.",
+         step3:"3.Let the user find the timer function.",
+         step4:"4.Find a seasoning jar with a shining LED.",
+         stepsUsability:"Participants:",
+         partUsability:"2 males, 3 females(Japan, China)",
 
          conculsion_learn:"Conclusion and Learn", 
          conculsion_kitchen:"Conclusion:",

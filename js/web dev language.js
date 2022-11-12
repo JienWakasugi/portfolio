@@ -20,6 +20,8 @@ let languages = {
          explain2:"大学からWeb開発の勉強を始めたので、何から始めたら良いのかわからない。",
          issue3:"インターネットからWeb開発の情報を見つける:",
          explain3:"周りに詳しい人がいないので自分でその技術について調べた。",
+         issue4:"インタビュー対象者:",
+         explain4:"男性4名、女性1名(日本、オランダ、中国)",
          aboutPersona:"ペルソナ:",
          explainPersona:"ペルソナとして自分の作品集を作りたい学生リンダと文化祭のウェブサイトを作りたい学生ヒューゴを構築しました。",
          
@@ -28,9 +30,12 @@ let languages = {
          concept_explain:"Web開発に役立つWebサイトを集めてウェブ開発が初めての10代にその情報を提供します。",
          about_usertest:"ユーザーテストについて",
          steps:"手順:",
-         step1:"ツールというページを見つけてもらう",
-         step2:"ツールの一覧からWeb開発ソフトのVisual Studioを見つけてもらう。",
-         step3:"Web開発ソフトのVisual Studioの詳細ページに移動してもらう。",
+         step1:"1.ツールというページを見つけてもらう",
+         step2:"2.ツールの一覧からWeb開発ソフトのVisual Studioを見つけてもらう。",
+         step3:"3.Web開発ソフトのVisual Studioの詳細ページに移動してもらう。",
+         stepsUsability:"テスト協力者:",
+         partUsability:"男性5名(日本、オランダ、中国)",
+         
          
          research_result:"調査結果:",
          research_result1:"専門用語を使わない。",
@@ -69,6 +74,8 @@ let languages = {
       explain2:"Students don't know what to start learning in Web development.",
       issue3:"No one around me knows much about web development:",
       explain3:"A student was exploring the technology on my own because no one around me knew much about it.",
+      issue4:"Interviewees:",
+      explain4:"4 males, 1 female(Japan, China, Holland)",
       aboutPersona:"Persona:",
       explainPersona:"As personas, we constructed Linda, a student who wanted to create a collection  website of her own work, and Hugo, a student who wanted to create a festival website.",
      
@@ -76,9 +83,11 @@ let languages = {
       concept_explain:"My idea collects useful information and provides that information to teens who are new to Web development.",
       about_usertest:"About usability study",
       steps:"Usability study process:",
-      step1:"Find the title Tools",
-      step2:"From the list of tools, find the web development software Visual Studio.",
-      step3:"Navigate to the Visual Studio web development software details page.",
+      step1:"1.Find the title Tools",
+      step2:"2.From the list of tools, find the web development software Visual Studio.",
+      step3:"3.Navigate to the Visual Studio web development software details page.",
+      stepsUsability:"Participants:",
+      partUsability:"5 males(Japan, China, Holland)",
        
       research_result:"Research conclusions:",
       research_result1:"The jargon isn't used for beginners.",
