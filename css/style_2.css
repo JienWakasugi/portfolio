@@ -378,6 +378,13 @@ p .exp{
     /* font-size: 1.5rem; */
     margin-right: 1rem;
 }
+
+.qualification_title .material-symbols-outlined{
+    font-size: 1.1rem;
+    /* color: aqua; */
+    margin-right: .2rem;
+}
+
 .qualification_box{
     padding-top: .1rem;
     padding-bottom: .2rem;
@@ -617,6 +624,7 @@ p .exp{
     padding-left: 10px;
     /* padding: auto; */
 }
+
 .copyright{
     /* padding: 40px; */
     padding-top: 2.5em;
