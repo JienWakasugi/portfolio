@@ -58,7 +58,7 @@ let languages = {
       role:"UX designer, researcher",
       projectGoal:"Design an application that seamlessly handles everything from a movie theater search to  seat reservation.",
       targetAudience:"An engineer work in urban area.",
-      keyChallenge:"I created an application that allows you to reserve a seat quickly to see a movie with a friend.",
+      keyChallenge:"I created an application that allows users to reserve a seat quickly to see a movie with a friend.",
       hypothesis:"I made an application that allows to reserve a seat for a movie quickly.",
       task1:"I interviewed people in their 20s and 30s about their movie reservations.",
       task2:"Make and iterate prototypes",
