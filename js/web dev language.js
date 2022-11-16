@@ -27,7 +27,7 @@ let languages = {
          
          
          inital_concept:"初期デザインのコンセプト:",
-         concept_explain:"Web開発に役立つWebサイトを集めてウェブ開発が初めての10代にその情報を提供します。",
+         concept_explain:"Web開発に役立つWebサイトを集めてWeb開発が初めての10代にその情報を提供します。",
          about_usertest:"ユーザーテストについて",
          steps:"手順:",
          step1:"1.ツールというページを見つけてもらう",
@@ -38,22 +38,22 @@ let languages = {
          
          
          research_result:"調査結果:",
-         research_result1:"専門用語を使わない。",
-         research_result2:"スマートフォンのものは文字を大きくする",
-         research_result3:"説明は簡潔にまとめる。",
+         research_result1:"1.専門用語を使わない。",
+         research_result2:"2.スマートフォンのものは文字を大きくする",
+         research_result3:"3.説明は簡潔にまとめる。",
          about_mockups:"モックアップについて",
          mockup1:"改善:",
          mockup2:"IDE(統合開発環境)からツールにタイトルを変更しました。文字サイズを大きくと説明は簡潔に変更しました。",
          explain_mockups:"モックアップの説明:",
-         character_mockup1:"Web開発について学べるオンラインサイトを紹介する、学習サイトのページです。",
-         character_mockup2:"プロが作ったWebサイトを紹介するインスピレーションのページです。",
-         character_mockup3:"実際にプログラミングをするときに必要なツールを紹介するページです。",
+         character_mockup1:"1.Web開発について学べるオンラインサイトを紹介する、学習サイトのページです。",
+         character_mockup2:"2.プロが作ったWebサイトを紹介するインスピレーションのページです。",
+         character_mockup3:"3.実際にプログラミングをするときに必要なツールを紹介するページです。",
          
          conculsion_learn:"結論と学び", 
          conculsion_web:"結論:",
-         myConculusion:"5名のユーザーテストの結果、Web開発ツールを見つけるのに約は1分程度でできるようになりました。",
+         myConculusion:"5名のユーザーテストの結果、情報(Web開発ツール)を見つけるのに約1分程度でできることがわかりました。",
          whatLearn:"学び:",
-         myStudy:"親切で情報を多くWebサイトに入れましたが、それが逆に利用者にとってストレスになることがわかりました。"
+         myStudy:"初期Webサイトには情報を多くいれましたが、それが逆に利用者にとってストレスになることがわかりました。適切な情報量を考えることが大切だと学びました。"
       },
     en: {
       title_web:"Web developer library",
@@ -90,22 +90,22 @@ let languages = {
       partUsability:"5 males(Japan, China, Holland)",
        
       research_result:"Research conclusions:",
-      research_result1:"The jargon isn't used for beginners.",
-      research_result2:"The font size to be displayed on smartphones should be large.",
-      research_result3:"The description should be concise.",
+      research_result1:"1.The jargon isn't used for beginners.",
+      research_result2:"2.The font size to be displayed on smartphones should be large.",
+      research_result3:"3.The description should be concise.",
       about_mockups:"About mockups",
       mockup1:"Improvement:",
       mockup2:"Changed title from IDE (Integrated Development Environment) to Tools.The font size has been increased and description is changed. ",
       explain_mockups:"About mockups:",
-      character_mockup1:"This is a page of learning sites that introduces online sites to learn about web development.",
-      character_mockup2:"This is an inspirational page that shows professionally created websites.",
-      character_mockup3:"This page introduces the tools necessary for actual programming.",
+      character_mockup1:"1.This is a page of learning sites that introduces online sites to learn about web development.",
+      character_mockup2:"2.This is an inspirational page that shows professionally created websites.",
+      character_mockup3:"3.This page introduces the tools necessary for actual programming.",
       
       conculsion_learn:"Conclusion and Learn", 
       conculsion_web:"Conclusion:",
       myConculusion:"After 5 usability studies, it takes about a minute to find a web-development tool.",
       whatLearn:"Learn:",
-      myStudy:"There are many text on the Web, but I found this to be counterintuitive and stressful to users."  
+      myStudy:"There are many text on the inital web, but I found this to be counterintuitive and stressful to users.I learned to adjust sentence length."  
     }
 
  

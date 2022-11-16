@@ -68,7 +68,7 @@ let languages = {
         conculsion_kitchen:"結論",
         myConculusion:"レシピアプリに現状の分量を表示することや時計機能は支持される一方で、調味料ボックスのLEDが光る機能は使い方が分かりにくく改善が必要だということがわかりました。",
         whatLearn:"学び",
-        myStudy:"調味料の換算や加えた量の記憶などIoT側が得意なことと人間が得意なことを切り分けてシステムを作ることができました。",
+        myStudy:"分析と評価を通して、加えた調味料の記憶などIoT側が得意なことと人間が得意なことを切り分けてシステムを作ることが大切だと実感しました。",
 
         weightDisplay:"分量表示:",
         weightDisplayDetails:"5人中3人がこの機能を支持しました。",
@@ -145,9 +145,9 @@ let languages = {
 
          conculsion_learn:"Conclusion and Learn", 
          conculsion_kitchen:"Conclusion:",
-         myConculusion:"Evaluation supported the recipe application function to display the current ingredient quantity and clock function.",
+         myConculusion:"Evaluation supported the recipe application function to display the current ingredient quantity and clock function.On the other hand, LED light on seasoning caster is difficult to understand and needs to be improved.",
          whatLearn:"Learn:",
-         myStudy:"On the other hand, LED light on seasoning caster is difficult to understand and needs to be improved.",  
+         myStudy:"Through my analysis and evaluation, I realized that it is important to build a system that separates what the IoT side is good at, such as  memorizing the amount of data added, from what humans are good at.",  
 
          weightDisplay:"Measuring weight:",
          weightDisplayDetails:"Three out of five supported this feature.",
