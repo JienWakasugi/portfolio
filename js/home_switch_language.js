@@ -17,7 +17,7 @@ let languages = {
         // title_cookware:"IoT調理器具 Cal&light, Tre"
       },
     en: {
-        introduction: "As a UI designer, I was working on developing products for professional after completing graduate school.I have been in charge of a UI for industrial devices.In the future, I would like to work on UX design field.",
+        introduction: "As a UI designer, I've developing products as a professional since completing graduate school. I've been in charge of designing UI for industrial devices. In the future, I would like to work in the UX design field.",
         introduction2:"Designer",
         introduction3:"Murata Machinery, Kyoto",
         introduction4:"Contens Creative Design ",
