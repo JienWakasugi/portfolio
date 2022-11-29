@@ -25,7 +25,7 @@ let languages = {
          persona_explain:"ペルソナ:",
          persona:"ペルソナとして、友達と一緒に映画を観に行きたい中国出身の東京でエンジニアとして働くリュウを構築しました。",
          inital_concept:"初期デザインのコンセプト:",
-         concept_explain:"映画のイメージや自分の周りにある映画館をアプリが表示してくれること。",
+         concept_explain:"映画のサムネイルやユーザーの周りにある映画館をアプリが表示してくれること。",
          about_usertest:"ユーザーテストについて",
          steps:"手順:",
          step1:"1.近場の映画館を探す。",
@@ -35,9 +35,9 @@ let languages = {
          partUsability:"男性4名、女性1名(日本、オランダ、中国、台湾、米国)",
 
          research_result:"調査結果:",
-         research_result1:"1.予約中にチケット変更のボタンが見えずらい。",
+         research_result1:"1.予約中にチケット変更のボタンが見えづらい。",
          research_result2:"2.ヘッダーとフッターが大きすぎる。",
-         research_result3:"3.席を選ぶとき、座席表が拡大できるほうがい良い。",
+         research_result3:"3.席を選ぶとき、座席表が拡大できるほうが良い。",
          about_mockups:"モックアップについて",
          mockup1:"改善:",
          mockup2:"座席表の全体像が見えるように変更しました。",
@@ -50,7 +50,7 @@ let languages = {
          conculsion_movie:"結論:",
          conculusion_details:"5名のユーザーテストの結果、席の予約は1分程度で素早くできるようになりました。",
          learn_movie:"学び:",
-         learn_details:"日本人、オランダ人、アメリカ人、中国人、台湾人と多様なユーザーの意見を聞くことができました。自分の考えと彼らが求めるているものの違いに気づきました。"
+         learn_details:"日本人、オランダ人、アメリカ人、中国人、台湾人と多様なユーザーの意見を聞くことができました。自分の考えと彼らニーズが違うことに気づきました。"
       },
     en: {
       title_movie:"Wow film",

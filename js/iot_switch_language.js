@@ -1,7 +1,7 @@
 let currentLanguage = "ja";
 let languages = {
     ja: {
-         title_cookware:"IoT調理器具 Cal&light, Tre",
+         title_cookware:"IoT調理器具 Cal&Light, Tre",
          subtitle:"IoT調理器具と調理アプリ",
          role:"ハードウェア　キッチンスケールと調味料瓶の制作, ソフトウェア　Webアプリの開発",
          projectGoal:"レシピ通りに料理を作ることができない料理初心者をサポートすることです。",
@@ -62,7 +62,7 @@ let languages = {
         step1:"1.キッチンスケール上のコップに水を加えてアプリ上に分量を表示させる。",
         step2:"2.チェックマークが表示されるまでキッチンスケール上のコップに水を加える。",
         step3:"3.タイマー機能を見つけてもらう。",
-        step4:"4.LEDが光っている調味料瓶を見つけてもらう。",
+        step4:"4.LEDが光っている調味料ボックスを見つけてもらう。",
         stepsUsability:"テスト協力者:",
         partUsability:"男性2名、女性3名(日本、中国)",
 
@@ -82,7 +82,7 @@ let languages = {
         checkSeasoringDetails:"5人中4人がこの機能を支持しました。",
       },
     en: {
-         title_cookware:"IoT cookware Cal&light, Tre",
+         title_cookware:"IoT cookware Cal&Light, Tre",
          subtitle:"IoT cookware and cooking app",
          role:"Developing IoT scale and caster, website",
          projectGoal:"Help students cook successfully with an app",

@@ -27,7 +27,7 @@ let languages = {
          
          
          inital_concept:"初期デザインのコンセプト:",
-         concept_explain:"Web開発に役立つWebサイトを集めてWeb開発が初めての10代にその情報を提供します。",
+         concept_explain:"Web開発に役立つコンテンツを集めて、勉強を始めたばかりの10代にそのコンテンツを提供します。",
          about_usertest:"ユーザーテストについて",
          steps:"手順:",
          step1:"1.ツールというページを見つけてもらう",
