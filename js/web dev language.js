@@ -7,10 +7,10 @@ let languages = {
          projectGoal:"初めてWeb開発をする10代に役立つWeb開発情報を提供します。",
          targetAudience:"10代のプログラミング未経験者",
          keyChallenge:"Web開発が初めてとなる10代を助けるツールをデザインします。",
-         hypothesis:"Web開発に必要な情報に素早くアクセスできるWebサイトをつくります。",
-         task1:"インタビューを行い、どのようにWeb開発の勉強をしたのか聞いていきます。",
+         hypothesis:"Web開発に必要な情報へ素早くアクセスできるサイトをつくります。",
+         task1:"インタビュー(経験者へどのようにWeb開発の勉強をしたのか質問します。)",
          task2:"プロトタイプの制作と改善",
-         task3:"ユーザーテスト",
+         task3:"ユーザーテスト 男性5名(日本、オランダ、中国)",
          
          about_research:"ユーザーリサーチについて",
          issue1:"インターネットからWeb開発の情報を見つけることが手間:",
@@ -65,7 +65,7 @@ let languages = {
       hypothesis:"I create a web page that provides information necessary for web development.",
       task1:"I interviewed programmers about their programming studies.",
       task2:"Make and iterate prototypes",
-      task3:"Usarbility study",
+      task3:"Usarbility study 5 males(Japan, China, Holland)",
     
       about_research:"About usarbility study",
       issue1:"Information retrieval from the Internet takes time:",

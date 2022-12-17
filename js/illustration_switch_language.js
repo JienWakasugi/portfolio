@@ -4,15 +4,15 @@ let languages = {
       title: "イラスト",
       subtitle:"デッサンコレクション",
       introduction:"デッサン作品",
-      explain:"2020年より月4回、教室に通いながら作品を書いています。制作時間は8時間です。カメラの作品は作業時間で24時間かかっています。",
-      duration:"期間 2020-2022",
+      explain:"2020年より月4回、教室に通いながら絵を描いています。制作時間は8時間です。カメラの作品は作業時間で24時間かかっています。",
+      duration:"期間 2020-現在",
       },
     en: {
         title: "My recent Illustrations",
         subtitle:"Drawing",
         introduction:"My artworks",
         explain:"I attend classes and draw 4 times per month since 2020.Time of this artwork is 8 hours.It took 24 hours to work on the camera artworks.",
-        duration:"Duration 2020-2022",
+        duration:"Duration 2020-Current",
 
   }
  

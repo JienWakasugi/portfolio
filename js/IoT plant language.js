@@ -8,9 +8,9 @@ let languages = {
          targetAudience:"20代の学生とエンジニア",
          keyChallenge:"植物を枯らさずに育てるツールを開発します。",
          hypothesis:"コミュニケーションがとれない植物の健康状態を知ることができるツールを作ります。",
-         task1:"インタビューと観察を行い、植物との関わり方を聞きました。",
+         task1:"インタビューと観察(植物を育てている方へ聞きました。)",
          task2:"プロトタイプの制作と改善",
-         task3:"ユーザーテスト",
+         task3:"ユーザーテスト 男性1名、女性1名(オランダ)",
          
          about_research:"ユーザーリサーチについて",
          issue1:"観察とインタビューを実施:",
@@ -32,6 +32,8 @@ let languages = {
          step1:"1.ユーザが気になるプロトタイプのアイデアについて意見を聞きます。",
          step2:"2.紙のUIパーツを利用し、即席のワイヤーフレームを作ってもらいます。",
          step3:"3.欲しい機能をユーザに白紙ワイヤーフレームに描いてもらいます。",
+         interview:"インタビュー対象者:",
+         participant:"男性1名、女性1名(オランダ)",
          
          research_result:"調査結果:",
          research_result1:"アプリで覚えることは少ない方が良い。",
@@ -62,7 +64,7 @@ let languages = {
       hypothesis:"Develop tools for plant health.",
       task1:"I interviewed youngs about their plant care.",
       task2:"Make and iterate prototypes",
-      task3:"Usarbility study",
+      task3:"Usarbility study 1 male and 1 female(Holland)",
     
       about_research:"About usarbility study",
       issue1:"Conduct observations and interviews:",
@@ -82,6 +84,8 @@ let languages = {
       step1:"Ask the collaborators for their impressions of the prototype.",
       step2:"Make wireframes with the paper UI parts.",
       step3:"Cooperators sketch the features they want on the blank wireframe.",
+      interview:"Participants:",
+      participant:"1 male and 1 female(Holland)",
        
       research_result:"Research conclusions:",
       research_result1:"Collaborators do not feel learning how to use the application.",
