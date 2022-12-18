@@ -1,7 +1,7 @@
 let currentLanguage = "ja";
 let languages = {
     ja: {
-         title:"家庭菜園を楽しむ IoTデバイスとアプリ Vodafon grow",
+         title:"家庭菜園を楽しむ IoTセンサとアプリ Vodafone grow",
          subtitle:"20代向け植物育成キット",
          role:"チームプロジェクト, UXデザイナー, リサーチ",
          projectGoal:"都市部に住む若者が野菜を育てられるようにすること。",

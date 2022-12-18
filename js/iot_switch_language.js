@@ -1,8 +1,8 @@
 let currentLanguage = "ja";
 let languages = {
     ja: {
-         title_cookware:"IoT調理器具 Cal&Light, Tre",
-         subtitle:"IoT調理器具と調理アプリ",
+         title_cookware:"IoT調理器具とオンラインレシピ Cal&Light, Tre",
+         subtitle:"IoT調理器具とオンラインレシピ<",
          role:"ハードウェア　キッチンスケールと調味料瓶の制作, ソフトウェア　Webアプリの開発",
          projectGoal:"レシピ通りに料理を作ることができない料理初心者をサポートすることです。",
          targetAudience:"料理を始めたばかりの20代の学生",
