@@ -11,7 +11,7 @@ let languages = {
         title: "My recent Illustrations",
         subtitle:"Drawing",
         introduction:"My artworks",
-        explain:"I attend classes and draw 4 times per month since 2020.Time of this artwork is 8 hours.It took 24 hours to work on the camera artworks.",
+        explain:"I’ve been attending classes and have been drawing 4 times a month since 2020. The average time spent on these pieces is about 8 hours. The camera piece took 24 hours to create.",
         duration:"Duration 2020-Current",
 
   }
